@@ -18,7 +18,6 @@ Diagonal utama matriks persegi berukuran $n \times n$ adalah elemen $a_{ij}$ den
 Kegunaan matriks di bidang informatika adalah untuk representasi data, misalkan representasi graf, representasi citra digital, matriks kernel di dalam metode deep learning, serta representasi sistem persamaan linear.
 
 ## Operasi pada matriks
-
 ### Penjumlahan Matriks
 Penjumlahan dua buah matriks dihitung sebagai berikut
 
@@ -27,6 +26,7 @@ C_{m \times n} = A_{m \times n} + B_{m \times n}
 $$
 
 Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka 
+
 $$
 C = A + B = [c_{ij}],\  c_{ij} = a_{ij} + b_{ij}
 $$
