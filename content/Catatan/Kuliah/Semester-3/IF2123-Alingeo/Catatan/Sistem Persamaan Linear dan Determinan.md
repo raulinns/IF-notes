@@ -1,13 +1,16 @@
 # Matriks
 Matriks $A$ dengan $m$ baris dan $n$ kolom, disebut juga matriks $m \times n$ dinotasikan sebagai berikut
+
 $$
-A = [a_{ij}] = \begin{bmatrix} 
+A = [a_{ij}] = 
+\begin{bmatrix} 
 a_{11} && a_{12} && \dots && a_{1n} \\
 a_{21} && a_{22} && \dots && a_{2n} \\
 \vdots && \vdots && \vdots && \vdots \\
 a_{m1} && a_{m2} && \dots && a_{mn} 
 \end{bmatrix}
 $$
+
 Jika matriks berukuran $m = n$, maka matriks tersebut dinamakan matriks persegi orde $n$.
 
 Diagonal utama matriks persegi berukuran $n \times n$ adalah elemen $a_{ij}$ dengan $i = j$. Matriks $m \times n$ tidak memiliki diagonal utama.
@@ -15,11 +18,14 @@ Diagonal utama matriks persegi berukuran $n \times n$ adalah elemen $a_{ij}$ den
 Kegunaan matriks di bidang informatika adalah untuk representasi data, misalkan representasi graf, representasi citra digital, matriks kernel di dalam metode deep learning, serta representasi sistem persamaan linear.
 
 ## Operasi pada matriks
+
 ### Penjumlahan Matriks
 Penjumlahan dua buah matriks dihitung sebagai berikut
+
 $$
 C_{m \times n} = A_{m \times n} + B_{m \times n}
 $$
+
 Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka 
 $$
 C = A + B = [c_{ij}],\  c_{ij} = a_{ij} + b_{ij}
