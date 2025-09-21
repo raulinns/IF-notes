@@ -30,6 +30,7 @@ Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka
 $$
 C = A + B = [c_{ij}],\  c_{ij} = a_{ij} + b_{ij}
 $$
+
 dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$
 
 Begitu juga dengan pengurangan matriks. 
