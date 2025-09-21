@@ -35,6 +35,7 @@ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$
 Begitu juga dengan pengurangan matriks. 
 
 ### Perkalian Matriks
+
 Perkalian dua buah matriks dihitung sebagai berikut
 $$
 C_{m \times n} = A_{m \times a} \times B_{a \times n}
@@ -46,12 +47,14 @@ $$ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$.
 Syarat dari sebuah perkalian matriks adalah jumlah kolom $A$ dengan jumlah baris $B$ bernilai sama.
 
 ### Perkalian Matriks dengan Skalar
+
 Misal, jika $A = [a_{ij}]$ dan $c$ adalah skalar, maka 
 $$
 c A = [c \cdot a_{ij}]
 $$ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
 
 ### Kombinasi Linear
+
 Perkalian matriks dapat dipandang sebagai kombinasi linear. Misalkan:
 $$
 A = 
@@ -134,6 +137,7 @@ $$ \begin{align*}
 \begin{bmatrix} 13 \\ 12 \end{bmatrix} &= 3\begin{bmatrix} 1 \\ 2 \end{bmatrix} + 1\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 2\begin{bmatrix} 4 \\ 0 \end{bmatrix} \end{align*} $$
 
 ### Transpose Matriks
+
 Transpose sebuah matriks dihitung sebagai berikut
 $$
 B = A^{T}
@@ -174,6 +178,7 @@ $$
 $$
 
 ### Trace sebuah Matriks
+
 Jika $A$ adalah matriks persegi, maka trace matriks $A$ (dinotasikan dengan $tr(A)$) adalah jumlah semua elemen pada diagonal utama.
 $$
 A = 
@@ -187,6 +192,7 @@ $$
 Maka, $tr(A) = a_{11} + a_{22} + a_{33}$. Jika $A$ bukan matriks persegi, maka $tr(A)$ tidak terdefinisi,
 
 ### Sifat-Sifat Operasi Aritmatika Matriks
+
 $$
 \begin{align*}
 (a) \quad & A+B=B+A && \text{(Commutative law for addition)} \\
@@ -205,6 +211,7 @@ $$
 \end{align*}
 $$
 ### Matriks Nol
+
 Matriks nol adalah matriks yang seluruh elemennya bernilai 0. Matriks nol dilambangkan dengan 0. 
 $$
 \begin{bmatrix}
@@ -239,6 +246,7 @@ $$
 $$
 
 ### Matriks Identitas
+
 Matriks Identitas adalah matriks persegi yang semua elemen bernilai 1 pada diagonal utamanya dan bernilai 0 pada posisi lainnya
 $$
 \begin{bmatrix}
@@ -266,7 +274,9 @@ $$
 Matriks Identitas disimbolkan dengan I.
 
 Matriks identitas memiliki sifat, yaitu $AI = IA = A$
+
 ### Matriks Balikan
+
 Matriks Balikan (invers) dari sebuah matriks A adalah matriks B sedemikian sehingga
 $$
 AB = BA = I
@@ -290,6 +300,7 @@ dengan syarat $D \ne 0$. $D = ad - bc$. Jika $D = 0$, maka matriks tidak memilik
 
 
 # Matriks Eselon Baris
+
 Matriks eselon baris (*row echelon form*) adalah matriks yang memilik 1 utama (*leading one*) pada setiap baris, kecuali pada baris yang seluruhnya nol.
 
 Matriks eselon baris berbentuk:
@@ -324,6 +335,7 @@ Sifat-sifat matriks eselon baris:
 Ciri-ciri matriks eselon baris: memiliki semua nilai nol pada kolom di bawah 1 utama.
 
 ## Matriks Eselon Baris Tereduksi
+
 Matriks eselon baris tereduksi (*reduce row echelon*) berbentuk:
 $$
 \begin{bmatrix}
@@ -346,7 +358,9 @@ Sifat-sifat matriks eselon baris tereduksi sama seperti matris eselon baris, tet
 4. Setiap kolom yang memiliki 1 utama memiliki nol di tempat lain
 
 # Sistem Persamaan Linear (SPL)
+
 ## Bentuk Umum SPL
+
 Linear dalam SPL berarti pangkat tertinggi di dalam variabelnya sama dengan 1. Sebuah SPL dengan $m$ buah persamaan dan $n$ variabel $x_1, x_2, \dots, x_n$ berbentuk:
 $$
 \begin{align}
@@ -402,8 +416,11 @@ b_{1} \\
 b_{2} \\
 \vdots \\
 b_{m} \\
-\end{bmatrix}$$
+\end{bmatrix}
+$$
+
 ## Matriks Augmented
+
 SPL dapat dinyatakan secara ringkas dalam bentuk matriks *augmented*:
 $$
 \begin{bmatrix}
@@ -611,6 +628,7 @@ Kedua prinsip di atas mendasari metode regresi kuadrat terkecil.
 
 #### Regresi Linear
 TODO
+
 ## Determinan
 Misalkan $A$ adalah matriks berukuran $n \times n$.
 $$
