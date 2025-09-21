@@ -30,7 +30,6 @@ Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka
 $$
 C = A + B = [c_{ij}],\  c_{ij} = a_{ij} + b_{ij}
 $$
-
 dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$
 
 Begitu juga dengan pengurangan matriks. 
@@ -41,10 +40,12 @@ Perkalian dua buah matriks dihitung sebagai berikut
 $$
 C_{m \times n} = A_{m \times a} \times B_{a \times n}
 $$
+
 Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka 
 $$
 C = A + B = [c_{ij}],\  c_{ij} = a_{i1} \cdot b_{1j} + a_{i2} \cdot b_{2j} + \dots + a_{in} \cdot b{nj}
-$$ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
+$$ 
+dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
 Syarat dari sebuah perkalian matriks adalah jumlah kolom $A$ dengan jumlah baris $B$ bernilai sama.
 
 ### Perkalian Matriks dengan Skalar
@@ -52,7 +53,9 @@ Syarat dari sebuah perkalian matriks adalah jumlah kolom $A$ dengan jumlah baris
 Misal, jika $A = [a_{ij}]$ dan $c$ adalah skalar, maka 
 $$
 c A = [c \cdot a_{ij}]
-$$ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
+$$ 
+
+dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
 
 ### Kombinasi Linear
 
@@ -143,10 +146,14 @@ Transpose sebuah matriks dihitung sebagai berikut
 $$
 B = A^{T}
 $$
-Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka 
+
+Misal, jika $A = [a_{ij}]$ dan $B = [b_{ij}]$, maka
+
 $$
 b_{ji} = a_{ij}
-$$ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
+$$
+
+dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
 
 Misalkan: 
 $$
@@ -167,7 +174,10 @@ a_{12} && a_{22} && a_{32} \\
 a_{13} && a_{23} && a_{33} \\
 a_{14} && a_{24} && a_{34}
 \end{bmatrix}
-$$Transpose Matriks memilik sifat-sifat sebagai berikut:
+$$
+
+Transpose Matriks memilik sifat-sifat sebagai berikut:
+
 $$
 \begin{align}
 	1) & \ (A^T)^T &&= A \\
@@ -249,29 +259,28 @@ $$
 ### Matriks Identitas
 
 Matriks Identitas adalah matriks persegi yang semua elemen bernilai 1 pada diagonal utamanya dan bernilai 0 pada posisi lainnya
+
 $$
 \begin{bmatrix}
 1 && 0 \\
 0 && 1 \\
 \end{bmatrix},
-
 \begin{bmatrix}
 1 && 0 && 0 \\
 0 && 1 && 0 \\
 0 && 0 && 1 \\
 \end{bmatrix},
-
 \begin{bmatrix}
 1 && 0 && 0 && 0 \\
 0 && 1 && 0 && 0 \\
 0 && 0 && 1 && 0 \\
 0 && 0 && 0 && 1 \\
 \end{bmatrix},
-
 \begin{bmatrix}
 1
 \end{bmatrix}
 $$
+
 Matriks Identitas disimbolkan dengan I.
 
 Matriks identitas memiliki sifat, yaitu $AI = IA = A$
@@ -297,14 +306,15 @@ d && -b \\
 -c && a \\
 \end{bmatrix}
 $$
-dengan syarat $D \ne 0$. $D = ad - bc$. Jika $D = 0$, maka matriks tidak memiliki balikan dan dinamakan matriks singular.
 
+dengan syarat $D \ne 0$ .  $D=ad-bc$. Jika $D=0$, maka matriks tidak memiliki balikan dan dinamakan matriks singular.
 
 # Matriks Eselon Baris
 
 Matriks eselon baris (*row echelon form*) adalah matriks yang memilik 1 utama (*leading one*) pada setiap baris, kecuali pada baris yang seluruhnya nol.
 
 Matriks eselon baris berbentuk:
+
 $$
 \begin{bmatrix}
 1 && * && * \\
@@ -466,6 +476,7 @@ Jika berakhir para matriks eselon baris, maka metodenya dinamakan metode elimina
 Metode eliminasi Gauss dapat digunakan dengan cara:
 1. Nyatakan SPL dalam bentuk dalam bentuk matriks *augmented*
 2. Terapkan OBE pada matrik *augmented* sampai terbentuk matriks eselon baris
+
 $$
 \begin{bmatrix}
 a_{11} & a_{12} & \dots & a_{1n} & b_1 \\
@@ -483,6 +494,7 @@ a_{m1} & a_{m2} & \dots & a_{mn} & b_n
 0 & 0 & 0 & \dots & 1 & *
 \end{bmatrix}
 $$
+
 3. Selesaikan persamaan yang berkoresponden pada matriks eselon baris dengan teknik penyulihan mundur (*backward substitusion*)
 
 ### Kemungkinan Solusi SPL
