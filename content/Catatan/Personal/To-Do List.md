@@ -1,0 +1,4 @@
+- [ ] Belajar Introduction to Web Development (Youtube CS50) [[Web Development]]
+- [x] Pindahin catatan notion ke obsidian ✅ 2025-09-03
+- [ ] Kerjain leetcode tiap hari (Belajar dulu [[Pointer and Array C Language]])
+- [ ] 
