@@ -689,3 +689,28 @@ Misalkan $A$ adalah matriks $n \times n$. Matriks $B$ adalah matriks yang dipero
 2. Jika dua baris dipertukarkan, maka $\det(B) = - \det(A)$
 3. Jika sebuah baris ditambahkan dengan $k$ kali baris yang lain, maka $\det(B) = \det(A)$
 
+## Menghitung Determinan dengan Reduksi Baris
+Determinan matriks $A$ dapat diperoleh dengan menggunakan OBE pada matriks $A$ sampai diperoleh matriks segitiga (segitiga bawah atau atas)
+
+$$
+\begin{bmatrix}
+A
+\end{bmatrix}
+
+\overset{OBE}\sim \begin{bmatrix}
+\textsf{matriks segitiga bawah}
+\end{bmatrix}
+$$
+
+maka $\det(A) = (-1)^p a'_{11} \cdot a'_{22} \cdot \dots \cdot a'_{nn}$  dengan $p$ menyatakan banyaknya operasi pertukaran baris di dalam OBE.
+
+Jika selama reduksi baris ada OBE berupa perkalian baris-baris matriks dengan $k_1, k_2, \dots, k_m$, maka
+$$
+\det(A) = \frac{(-1)^p a'_{11} \cdot a'_{22} \cdot \dots \cdot a'_{nn}}{k_1 \cdot k_2 \cdot \dots \cdot k_m}
+$$
+
+### Teorema tentang Determinan
+1. Jika $A$ mengandung baris nol atau kolom nol, maka $\det(A) = 0$
+2. Jika $A^T$ adalah matriks transpose dari A, maka $\det(A^T) = \det(A)$
+3. Jika $A = BC$, maka $\det(A) = \det(B) \cdot \det(C)$
+4. aidan baik
