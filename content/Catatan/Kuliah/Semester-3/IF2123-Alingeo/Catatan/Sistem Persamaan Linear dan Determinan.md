@@ -60,18 +60,16 @@ dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$.
 ### Kombinasi Linear
 
 Perkalian matriks dapat dipandang sebagai kombinasi linear. Misalkan:
+
 $$
 A = 
-
 \begin{bmatrix} 
 a_{11} && a_{12} && \dots && a_{1n} \\
 a_{21} && a_{22} && \dots && a_{2n} \\
 \vdots && \vdots && \vdots && \vdots \\
 a_{m1} && a_{m2} && \dots && a_{mn} 
 \end{bmatrix} 
-
 \textsf{ dan } X = 
-
 \begin{bmatrix}
 x_{1} \\
 x_{2} \\
@@ -79,10 +77,11 @@ x_{2} \\
 x_{n} \\
 \end{bmatrix}
 $$
+
 Maka, 
+
 $$
 A \cdot X = 
-
 \begin{bmatrix} 
 a_{11} \cdot x_1 + a_{12} \cdot x_2 + \dots + a_{1n} \cdot x_n \\
 a_{21} \cdot x_1 + a_{22} \cdot x_2 + \dots + a_{2n} \cdot x_n \\
@@ -90,6 +89,7 @@ a_{21} \cdot x_1 + a_{22} \cdot x_2 + \dots + a_{2n} \cdot x_n \\
 a_{m1} \cdot x_1 + a_{m2} \cdot x_2 + \dots + a_{mn} \cdot x_n \\
 \end{bmatrix} 
 $$
+
 Perhatikan bahwa tiap kolomnya sama-sama dikalikan oleh $x$ pada baris yang sama. Oleh karena itu, kita dapat merubah bentuknya menjadi perkalian skalar, seperti:
 
 $$
@@ -119,26 +119,23 @@ a_{mn} \\
 $$
 
 Contoh: 
-$$ AB = 
+$$
+AB = 
 \begin{bmatrix} 1 & 2 & 4 \\ 2 & 6 & 0 \end{bmatrix} 
-
 \begin{bmatrix} 4 & 1 & 4 & 3 \\ 0 & -1 & 3 & 1 \\ 2 & 7 & 5 & 2 \end{bmatrix}
+= \begin{bmatrix} 12 & 27 & 30 & 13 \\ 8 & -4 & 26 & 12 \end{bmatrix}
+$$
 
-= \begin{bmatrix} 12 & 27 & 30 & 13 \\ 8 & -4 & 26 & 12 \end{bmatrix} $$
-
-$$ \begin{align*} 
+$$
+\begin{align*} 
 \begin{bmatrix} 12 \\ 8 \end{bmatrix} &= 
-
 4\begin{bmatrix} 1 \\ 2 \end{bmatrix} + 0\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 2\begin{bmatrix} 4 \\ 0 \end{bmatrix} \\ \\
-
 \begin{bmatrix} 27 \\ -4 \end{bmatrix} &=
-
 1\begin{bmatrix} 1 \\ 2 \end{bmatrix} - 1\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 7\begin{bmatrix} 4 \\ 0 \end{bmatrix} \\ \\ 
-
 \begin{bmatrix} 30 \\ 26 \end{bmatrix} &= 
 4\begin{bmatrix} 1 \\ 2 \end{bmatrix} + 3\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 5\begin{bmatrix} 4 \\ 0 \end{bmatrix} \\ \\ 
-
-\begin{bmatrix} 13 \\ 12 \end{bmatrix} &= 3\begin{bmatrix} 1 \\ 2 \end{bmatrix} + 1\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 2\begin{bmatrix} 4 \\ 0 \end{bmatrix} \end{align*} $$
+\begin{bmatrix} 13 \\ 12 \end{bmatrix} &= 3\begin{bmatrix} 1 \\ 2 \end{bmatrix} + 1\begin{bmatrix} 2 \\ 6 \end{bmatrix} + 2\begin{bmatrix} 4 \\ 0 \end{bmatrix} \end{align*}
+$$
 
 ### Transpose Matriks
 
