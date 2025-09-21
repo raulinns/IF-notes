@@ -1,13 +1,5 @@
 {
   "cleanUrls": true,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "buildCommand": "npx quartz build",
-        "outputDirectory": "public"
-      }
-    }
-  ]
+  "buildCommand": "npx quartz build",
+  "outputDirectory": "public"
 }
