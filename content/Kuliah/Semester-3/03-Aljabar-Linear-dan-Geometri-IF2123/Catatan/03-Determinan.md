@@ -62,7 +62,7 @@ Misalkan $A$ adalah matriks $n \times n$. Matriks $B$ adalah matriks yang dipero
 Determinan matriks $A$ dapat diperoleh dengan menggunakan OBE pada matriks $A$ sampai diperoleh matriks segitiga (segitiga bawah atau atas)
 
 $$
-\begin{align}
+\begin{align*}
 \begin{bmatrix}
 A
 \end{bmatrix}
@@ -82,7 +82,7 @@ a'_{11} && a'_{12} && \dots && a'_{1n} \\
 \vdots && \vdots && \vdots && \vdots \\
 0 && 0 && 0 && a'_{nn} 
 \end{vmatrix}
-\end{align}
+\end{align*}
 $$
 
 maka $\det(A) = (-1)^p a'_{11} \cdot a'_{22} \cdot \dots \cdot a'_{nn}$  dengan $p$ menyatakan banyaknya operasi pertukaran baris di dalam OBE.
