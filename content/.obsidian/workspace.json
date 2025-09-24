@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "Kuliah/Semester-1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "F9 - Pusat Massa dan Momentum Linear"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Kuliah/Semester-1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for F9 - Pusat Massa dan Momentum Linear"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Kuliah/Semester-1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from F9 - Pusat Massa dan Momentum Linear"
             }
           },
           {
@@ -142,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Kuliah/Semester-1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of F9 - Pusat Massa dan Momentum Linear"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "3b0e58a4369b7384",
@@ -192,9 +192,10 @@
   },
   "active": "109fff1b32f60d1f",
   "lastOpenFiles": [
+    "Kuliah/Semester-3/01-Algoritma-dan-Pemrograman-2-IF2110/Catatan/Pemrograman Fungsional.md",
+    "index.md",
     "Kuliah/Semester-3/03-Aljabar-Linear-dan-Geometri-IF2123/IF2123 Aljabar Linear dan Geometeri.md",
     "Kuliah/Semester-3/03-Aljabar-Linear-dan-Geometri-IF2123/Materi/00-Pengantar-Aljabar-Geometri.pdf",
-    "index.md",
     "Untitled.md",
     "Index/Semester-3/IF2110 Algoritma dan Pemrograman.md",
     "Index/Semester-1/FI1101 Fisika.md",

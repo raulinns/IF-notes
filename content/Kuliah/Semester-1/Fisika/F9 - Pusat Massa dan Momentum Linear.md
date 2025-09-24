@@ -1,40 +1,14 @@
----
-Note Type: Notes
-Done: true
-Date: 2024-06-12
-Last edited time: 2025-09-01T18:00
-tags: Fisika
----
-- Quick Access
-    - [[#Referensi]]
-    - [[#📝 Notes]]
-    - [[#Pusat Massa]]
-    - [[#Momentum Linear]]
-        - [[#Impuls]]
-        - [[#Kekekalan Momentum Linear]]
-        - [[#Tumbukan]]
-        - [[#Tumbukan Lenting Sebagian]]
-        - [[#Tumbukan Tidak Lenting]]
-        - [[#Tumbukan Lenting Sempurna]]
-        - [[#Tumbukan Dua Dimensi]]
-
-## Referensi
-
----
-
+#Fisika 
+# Referensi
 - Buku Halliday
 - PPT Pusat Massa dan Momentum Linear Pak Arief
 
-## 📝 Notes
-
----
-
-## Pusat Massa
+# Pusat Massa
 
 Pusat massa dari sistem partikel adalah representasi benda dari sebuah sistem partikel atau benda tegar. Titik pusat massa ini bergerak seolah-olah semua massa sistem terkonsentrasi di sana dan semua gaya eksternal bekerja di sana.
 
-![[image 14.png|image 14.png]]
-Gambar 1
+>[!img-caption] ![[image 14.png|image 14.png]]
+> Gambar 1
 
 Posisi pusat massa dari sistem $n$-partikel dapat ditentukan dari
 
@@ -52,11 +26,9 @@ $$\boxed{y_{pm}=\frac{1}{M}\sum_{i=1}^nm_iy_i}$$
 
 $$\boxed{z_{pm}=\frac{1}{M}\sum_{i=1}^nm_iz_i}$$
 
-  
+Posisi partikel juga dinotasikan sebagai $\vec r_i = x_i \hat{i} + y_i \hat{j}+z_i \hat{k}$. Dari notasi tersebut, posisi pusat massa dinotasikan sebagai.
 
-Posisi partikel juga dinotasikan sebagai $\vec r_i = x_i \^{i} + y_i \^{j}+z_i \^{k}$. Dari notasi tersebut, posisi pusat massa dinotasikan sebagai.
-
-$$\vec r_{pm} = x_{pm} \^{i} + y_{pm} \^{j}+z_{pm} \^{k}$$
+$$\vec r_{pm} = x_{pm} \hat{i} + y_{pm} \hat{j}+z_{pm} \hat{k}$$
 
 Sehingga diperoleh,
 
@@ -88,8 +60,6 @@ $$z_{pm}=\frac{1}{V}\int z \ dV$$
 
 Hal ini juga berlaku untuk massa per satuan luas ($\sigma = \frac{M}{A}$) dan massa per satuan panjang ($\lambda = \frac{M}{L}$)
 
-  
-
 Lalu, dengan melakukan manipulasi aljabar dan menurunkannya terhadap waktu, maka dapat diperoleh.
 
 $$\boxed{r_{pm}=\frac{m_1 \vec r_1 +m_2 \vec r_2 +\dots+m_n \vec r_n}{M}}$$
@@ -104,11 +74,9 @@ $$a_{pm}=\frac{F_1+F_2+\dots+F_n}{M} \implies \Sigma \vec F = M\vec a_{pm}$$
 
 dan berlaku $\Sigma F_x = Ma_{pm, x}$, $\Sigma F_y = Ma_{pm, y}$, dan $\Sigma F_z = Ma_{pm, z}$.
 
-  
-
 Catatan: Gaya internal, seperti ledakan tidak akan mengubah lintasan dari pusat massa.
 
-## Momentum Linear
+# Momentum Linear
 
 Momentum didefinisikan sebagai sebuah karakteristik dari benda yang menentukan seberapa sulit untuk menghentikan sebuah objek yang bergerak. Momentum linear disebut untuk membedakannya dengan momentum sudut atau momentum angular.
 
@@ -128,7 +96,7 @@ $$\Sigma F = ma = m\frac{dv}{dt}=\frac{d}{dt}(mv) = \implies \Sigma F=\frac{d\ve
 
 Sehingga, dapat dikatakan bahwa momentum suatu benda dapat berubah dengan memberikan gaya eksternal.
 
-### Impuls
+# Impuls
 
 Berdasarkan rumus di atas dan menganggap $\Sigma F$ sebagai fungsi gaya terhadap waktu $F(t)$, dapat diperoleh,
 
@@ -152,19 +120,17 @@ $$\boxed{\vec J = \Delta p =\int_{t_i}^{t_f}F(t) dt \tag{satuan: N ⋅ s}}$$
 
 Rumus ini dapat diartikan luas di bawah kurva $F(t)$-$t$ dari $t_i$ sampai $t_f$, seperti **Gambar 2.**
 
-![[image 1 7.png|image 1 7.png]]
+>[!img-caption] ![[image 1 7.png|image 1 7.png]]
+>Gambar 2
 
-Gambar 2
-
-![[image 2 6.png|image 2 6.png]]
-
-Gambar 3
+>[!img-caption] ![[image 2 6.png|image 2 6.png]]
+>Gambar 3
 
 Namun, berdasarkan Teori Nilai Rata-Rata, dapat diperoleh **Gambar 3**. Sehingga, dapat diperoleh rumus berikut.
 
 $$\boxed{\vec J =F_{avg}\Delta t}$$
 
-### Kekekalan Momentum Linear
+## Kekekalan Momentum Linear
 
 Jika tidak ada gaya eksternal ($\Sigma F=0 \implies \vec J = 0$) yang diberikan pada kedua sistem partikel (terisolasi) dan kedua sistem tidak berkurang atau bertambah partikel/massanya (tertutup), maka berlaku kekekalan momentum linear.
 
@@ -174,17 +140,16 @@ $$\begin{aligned}
 \\ m\vec v_{1i} + m\vec v_{2i} &= m\vec v_{1f} + m\vec v_{2f}  
 \end{aligned}$$
 
-### Tumbukan
+# Tumbukan
 
 Dalam sebuah kejadian tumbukan, jika energi kinetik total sebelum tumbukan dan setelah tumbukan sama, maka berlaku konservasi energi dan tumbukan disebut **Tumbukan Lenting Sempurna** (_Elastic Colission_). Namun, dalam kejadian dunia nyata seringkali tumbukan lenting sempurna ini tidak terjadi, karena saat kedua benda bertumbuk, energi berubah menjadi energi lainnya, seperti energi panas atau energi suara. Pada kondisi ini, tumbukan disebut _Inelastic Colissions_. Tumbukan ini dapat berupa inelastic colission (**Tumbukan Lenting Sebagian**) atau completely inelastic collision (**Tumbukan Tidak Lenting**).
 
-### Tumbukan Lenting Sebagian
+## Tumbukan Lenting Sebagian
 
 Dalam kondisi ini, kedua benda bergerak pada arah yang sama, tetapi benda pertama memiliki kecepatan yang lebih tinggi sehingga menumbuk benda 2.
 
-![[image 3 6.png|image 3 6.png]]
-
-Gambar 4
+>[!img-caption] ![[image 3 6.png|image 3 6.png]]
+>Gambar 4
 
 Dalam hal ini, karena kedua sistem tertutup dan terisolasi, maka berlaku hukum kekekalan momentum linear, sehingga
 
@@ -195,13 +160,12 @@ $$\begin{aligned}
 \\ m_1\vec v_{1i} + m_2\vec v_{2i} &= m_1\vec v_{1f} + m_2\vec v_{2f}  
 \end{aligned}$$
 
-### Tumbukan Tidak Lenting
+## Tumbukan Tidak Lenting
 
 Dalam kondisi ini, benda 1 bergerak menuju dan menumbuk benda 2 selagi benda 2 diam ($v_{2i} = 0$). Setelah tumbukan, benda 1 dan benda 2 bergerak bersama.
 
-![[image 4 6.png|image 4 6.png]]
-
-Gambar 5
+>[!img-caption] ![[image 4 6.png|image 4 6.png]]
+> Gambar 5
 
 Berlaku hukum kekekalan momentum linear, sehingga
 
@@ -213,50 +177,43 @@ m_1\vec v_{1i} + 0&= (m_1 + m_2)V
 
 Perhatikan bahwa $V = \frac{m_1}{m_1+m_2}\vec v_{1i}$, sehingga $V$ tidak mungkin lebih besar dari $\vec v_{1i}$ karena rasionya.
 
-### Tumbukan Lenting Sempurna
+## Tumbukan Lenting Sempurna
 
-1. Kasus Benda 2 Diam
-    
-    Dalam kondisi ini, benda 1 bergerak menuju dan menumbuk benda 2 selagi benda 2 diam ($v_{2i} = 0$). Setelah tumbukan, benda 1 dan benda 2 bergerak ke arah yang sama.
-    
-    ![[image 5 6.png|image 5 6.png]]
-    
-    Gambar 6
-    
-    Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
-    
-    $$\begin{aligned}  
+### Kasus Benda 2 Diam
+
+Dalam kondisi ini, benda 1 bergerak menuju dan menumbuk benda 2 selagi benda 2 diam ($v_{2i} = 0$). Setelah tumbukan, benda 1 dan benda 2 bergerak ke arah yang sama.    
+>[!img-caption] ![[image 5 6.png|image 5 6.png]]
+> Gambar 6
+
+Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
+
+$$\begin{aligned}  
     m_1\vec v_{1i} + 0 &= m_1 \vec v_{1f} + m_2 \vec v_{2f}  
     \\  
     \frac{1}{2}m_1v_{1i}^2 + 0 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
     \end{aligned}$$
-    
-    Untuk mendapatkan rumus $v_{1f}$ dan $v_{2f}$ dapat dilakukan dengan manipulasi aljabar dan membagi persamaan 1 dan persamaan 2. Setelah itu, dapat pula dikaji bagaimana jika $m_1 =m_2$, $m_2 \gg m_1$, dan $m_1 \gg m_2$.
-    
-      
-    
-2. Kasus Kedua Benda Bergerak Ke Arah Satu Sama Lain
-    
-    ![[image 6 6.png|image 6 6.png]]
-    
-    Gambar 7
-    
-    Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
-    
-    $$\begin{aligned}  
+
+Untuk mendapatkan rumus $v_{1f}$ dan $v_{2f}$ dapat dilakukan dengan manipulasi aljabar dan membagi persamaan 1 dan persamaan 2. Setelah itu, dapat pula dikaji bagaimana jika $m_1 =m_2$, $m_2 \gg m_1$, dan $m_1 \gg m_2$.
+
+### Kasus Kedua Benda Bergerak Ke Arah Satu Sama Lain
+
+>[!img-caption]  ![[image 6 6.png|image 6 6.png]]
+> Gambar 7
+
+Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
+
+$$\begin{aligned}  
     m_1\vec v_{1i} + m_2\vec v_{2i} &= m_1 \vec v_{1f} + m_2 \vec v_{2f}  
     \\  
     \frac{1}{2}m_1v_{1i}^2 + \frac{1}{2}m_2v_{2i}^2 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
     \end{aligned}$$
-    
 
 ### Tumbukan Dua Dimensi
 
-![[image 7 4.png|image 7 4.png]]
+>[!img-caption]  ![[image 7 4.png|image 7 4.png]]
+> Gambar 8
 
-Gambar 8
-
-Dalam tumbukan, berlaku kekekalan momentum linear sehingga,
+Dal~am tumbukan, berlaku kekekalan momentum linear sehingga,
 
 $$\vec P_{1i}+ \vec P_{2i} = \vec P_{1f}+ \vec P_{2f}$$
 

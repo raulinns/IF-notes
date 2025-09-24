@@ -1,4 +1,4 @@
-1# Paradigma Fungsional
+# Paradigma Fungsional
 Paradigma Fungsional dasarnya adalah konsep pemetaan dan fungsi di matematika. Paradigma fungsional memiliki pendekatan berpikir melalui fungsi apa yang akan direalisasikan, serta **bebas memori** dan **tidak mementingkan urutan instruksi**. *Programmer* juga tidak dituntut untuk mengetahui bagaimana mesin melakukan eksekusi.
 
 ![[Pasted image 20250920041905.png]]
@@ -31,6 +31,7 @@ Domain dan Range dari sebuah fungsi didefinisikan dalam bentuk tipe. Tipe adalah
 
 ## Notasi Fungsional
 Template Notasi Fungsional
+
 ![[Pasted image 20250920043922.png]]
 
 Dalam Notasi Fungsional, dapat digunakan ekspresi antara untuk mempermudah pembentukan fungsi. Ekspresi antara adalah nama yang digunakan sementara dalam fungsi, hanya berlaku dalam fungsi, tidak di dunia luar. 
@@ -45,6 +46,7 @@ Dalam Haskell, penulisannya kurang lebih mirip. Perbedaannya adalah
 - Tipe dasarnya bernama Int, Float, Char, String, dan Bool
 
 Template Notasi Fungsional
+
 ```haskell
 -- DEFINISI DAN SPESIFIKASI
 <Nama-Fungsi>:: <domain> -> <range>
@@ -63,11 +65,15 @@ Jenis-jenis notasi kondisional:
 Notes: Urutan kondisinya tidak penting. Tidak ada notasi `if-then` saja, karena semua kasus harus ada nilainya.
 
 Notasi Fungsional:
- ![[Pasted image 20250920045207.png]]
- ![[Pasted image 20250920045216.png]]
 
+ ![[Pasted image 20250920045207.png]]
+ 
+ ![[Pasted image 20250920045216.png]]
+ 
 Haskell:
+
 ![[Pasted image 20250920045239.png]]
+
 ![[Pasted image 20250920045246.png]]
 
 # Tipe Bentukan
@@ -88,10 +94,13 @@ Dalam konteks fungsional, mendefinisikan sebuah tipe adalah mendefinisikan:
 - Fungsi-fungsi lain
 
 Contoh definisi tipe adalah:
+
 ![[Pasted image 20250920045950.png]]
+
 ![[Pasted image 20250920045957.png]]
 
 Translasi ke Haskell:
+
 ```haskell
 -- Definisi tipe
 data Point = Pt Float Float
@@ -104,6 +113,7 @@ Pt merupakan konstruktor yang dijadikan internal representation dari tipe bentuk
 makePoint:: Float -> Float -> Point
 makePoint x y = Pt x y
 ```
+
 Di sini fungsi `makePoint` hanya sebagai wrapper atau pembungkus dari konstruktor `Pt`. Menggunakan `Pt` secara langsung juga sah-sah saja secara eksekusi.
 
 ```haskell
@@ -135,9 +145,11 @@ Solusi rekursif memiliki sekurang-kurangnya satu kasus basis dan satu kasus reku
 Kerangka fungsi rekursif untuk Pemrograman Fungsional adalah menggunakan ekspresi kondisional.
 
 Notasi Fungsional
+
 ![[Pasted image 20250920050956.png]]
 
 Haskell
+
 ```haskell
 <fungsi> <list-parameter> = 
 	if <kondisi-basis> then <ekspresi_1> -- basis
@@ -152,9 +164,12 @@ List merupakan sebuah tipe rekursif. List adalah sekumpulan elemen yang bertipe 
 - Rekurens, list terdiri dari sebuah elemen dan sebuah sublist (di mana sublist juga bertipe list)
 
 Dalam konstruktor, List dapat dibentuk dengan menambahkan elemen pada list di depan ataupun di belakang list.
+
 ![[Pasted image 20250920052128.png]]
 
+
 Atau dalam notasi fungsionalnya:
+
 ![[Pasted image 20250920052145.png]]
 
 Sedangkan dalam selektornya, kita tidak dapat mengambil elemen di tengah list secara langsung, kita hanya punya akses ke pada elemen pertama (dan sublist berisi sisa elemen setelahnya) atau elemen terakhir (dan sublist berisi sisa elemen sebelumnya). Untuk mengakses elemen list selain yang pertama dan terakhir, kita harus menggunakan rekursif.
@@ -178,11 +193,12 @@ List dalam Haskell dinotasikan dengan `[]`. Misalkan:
 ![[Pasted image 20250920053017.png]]
 
 Sedangkan, untuk selektornya memiliki definisi yang berbeda dengan Notasi Fungsional. Notes: Awas terkecoh!!!
+
 ![[Pasted image 20250920053055.png]]
 
 Terdapat beberapa operator "bawaan" untuk list dari Notasi Fungsional yang langsung dapat digunakan tanpa perlu diimplementasikan terlebih dahulu:
 
-| 0Fungsi                                                       | Deskripsi                                                                |
+| Fungsi                                                        | Deskripsi                                                                |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | NbElmt: List -> integer                                       | Menghasilkan banyaknya elemen list                                       |
 | isMember: elemen, List -> boolean                             | Mengecek apakah suatu elemen adalah member dari suatu list               |
