@@ -1,4 +1,4 @@
-## Determinan
+:## Determinan
 Misalkan $A$ adalah matriks berukuran $n \times n$.
 $$
 A = \begin{bmatrix} 

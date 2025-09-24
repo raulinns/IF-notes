@@ -1,4 +1,4 @@
-# Paradigma Fungsional
+1# Paradigma Fungsional
 Paradigma Fungsional dasarnya adalah konsep pemetaan dan fungsi di matematika. Paradigma fungsional memiliki pendekatan berpikir melalui fungsi apa yang akan direalisasikan, serta **bebas memori** dan **tidak mementingkan urutan instruksi**. *Programmer* juga tidak dituntut untuk mengetahui bagaimana mesin melakukan eksekusi.
 
 ![[Pasted image 20250920041905.png]]
@@ -182,7 +182,7 @@ Sedangkan, untuk selektornya memiliki definisi yang berbeda dengan Notasi Fungsi
 
 Terdapat beberapa operator "bawaan" untuk list dari Notasi Fungsional yang langsung dapat digunakan tanpa perlu diimplementasikan terlebih dahulu:
 
-| Fungsi                                                        | Deskripsi                                                                |
+| 0Fungsi                                                       | Deskripsi                                                                |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | NbElmt: List -> integer                                       | Menghasilkan banyaknya elemen list                                       |
 | isMember: elemen, List -> boolean                             | Mengecek apakah suatu elemen adalah member dari suatu list               |
