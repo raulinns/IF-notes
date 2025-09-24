@@ -171,11 +171,11 @@ body {
     --file-line-width: 850px;
 }
 
-/* /*- editor line width - fills entire editor -*/
+/* Opsi untuk lebar penuh, jika ingin diaktifkan, hapus tanda komentar */
+/* body {
+  --file-line-width: 100%;
+} 
 */
-/* body { */
-/* --file-line-width: 100%; */
-/* } */
 
 /* Dashboard Layout */
 .dashboard {
