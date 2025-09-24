@@ -1,3 +1,583 @@
 @use "./base.scss";
 
+// HAPUS BARIS @use "./base.scss"; DARI SINI
+
 // put your custom CSS here!
+/* callouts 02 */
+.callout::after {
+    content: "";
+    width: 48px;
+    height: 15px;
+    border-radius: 8px;
+    position: absolute;
+    display: inline-block;
+    background: rgb(var(--callout-color));
+    margin-top: 0.3%;
+    margin-left: auto;
+    border: var(--border-lowOp);
+    box-shadow: var(--sbs);
+}
+
+.callout {
+    background: transparent;
+}
+
+body {
+    --callout-border-width: 2px;
+    --callout-border-opacity: 1;
+}
+
+/*
+Use: cssclasses -> callouts-outlined
+
+author: Kepano, sailKite (extracted by)
+source: https://discord.com/channels/686053708261228577/702656734631821413/1087513978793635860
+*/
+
+/* ---------------------------------------------------------------------------
+
+Bordered Callouts from Minimal Theme by @kepano
+
+User interface replacement for Obsidian.
+
+Sponsor my work:
+https://www.buymeacoaffee.com/kepano
+
+Readme:
+https://github.com/kepano/obsidian-minimal
+
+-----------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020-2023 Stephan Ango (@kepano)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+.callouts-outlined .callout .callout-title {
+    background-color: var(--background-primary);
+    margin-top: -24px;
+    z-index: 200;
+    width: fit-content;
+    padding: 0 0.5em;
+    margin-left: -0.75em;
+    letter-spacing: 0.05em;
+    font-variant-caps: all-small-caps;
+}
+.callouts-outlined .callout {
+    overflow: visible;
+    --callout-border-width: 1px;
+    --callout-border-opacity: 0.5;
+    --callout-title-size: 0.8em;
+    --callout-blend-mode: normal;
+    background-color: transparent;
+}
+.callouts-outlined .cm-embed-block.cm-callout {
+    padding-top: 12px;
+}
+.callouts-outlined .callout-content .callout {
+    margin-top: 18px;
+}
+
+/* CODE BLOCK STYLING */
+
+/*
+MIT License
+
+Copyright (c) 2022 kneecaps
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/* reading mode */
+.markdown-rendered pre {
+    border: solid var(--color-accent);
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-lm-only);
+}
+
+/* live preview */
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+    background: var(--code-background);
+    border-top: solid var(--color-accent);
+    /* stylelint-disable-next-line declaration-no-important */
+    border-top-right-radius: 8px !important;
+    /* stylelint-disable-next-line declaration-no-important */
+    border-top-left-radius: 8px !important;
+    margin-top: 8px;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+    background: var(--code-background);
+    border-bottom: solid var(--color-accent);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+    border-right: solid var(--color-accent);
+    border-left: solid var(--color-accent);
+}
+
+/* Font override and editor width*/
+
+body {
+    /* Mengatur font utama untuk seluruh aplikasi (antarmuka dan teks catatan).
+    Fallback ke font sans-serif standar jika Montserrat tidak ditemukan.
+  */
+    --font-default: "Montserrat", sans-serif;
+    --font-interface: "Montserrat", sans-serif;
+    --font-text: "Montserrat", sans-serif;
+
+    /* Mengatur font khusus untuk semua elemen monospace.
+    Ini termasuk code block, inline code, dan frontmatter.
+    Fallback ke font monospace standar jika JetBrains Mono tidak ditemukan.
+  */
+    --font-monospace: "JetBrains Mono", monospace;
+}
+
+/*- editor line width - default 700px -*/
+body {
+    --file-line-width: 850px;
+}
+
+/* /*- editor line width - fills entire editor -*/
+*/
+/* body { */
+/* --file-line-width: 100%; */
+/* } */
+
+/* Dashboard Layout */
+.dashboard {
+    font-family: var(--font-family-editor);
+    padding: 30px !important;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.dashboard .markdown-preview-section {
+    max-width: 100%;
+}
+
+.dashboard .markdown-preview-section .title {
+    position: relative;
+    top: 0;
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(90deg, var(--color-accent), var(--text-accent-hover));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.dashboard h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0.6rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px dotted var(--background-modifier-border) !important;
+    color: var(--text-normal);
+}
+
+.dashboard .list-bullet,
+.dashboard .list-marker {
+    display: none !important;
+}
+
+.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
+    display: none;
+}
+
+.dashboard div > ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 1rem 0 2rem 0;
+}
+
+.dashboard div > ul > li {
+    min-width: 250px;
+    flex: 1 0 calc(25% - 20px);
+    margin: 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: var(--background-secondary);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.dashboard div > ul > li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard div > ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-accent), var(--text-accent-hover));
+}
+
+.dashboard div > ul > li > ul {
+    padding-left: 0 !important;
+    margin-top: 0.8rem;
+    display: block;
+}
+
+.dashboard div > ul > li > ul > li {
+    margin-bottom: 0.5rem;
+    padding-left: 0;
+    position: relative;
+}
+
+.dashboard div > ul > li > ul > li::before {
+    content: "•";
+    color: var(--text-accent);
+    position: absolute;
+    left: -1rem;
+}
+
+.dashboard a {
+    text-decoration: none;
+    color: var(--text-accent);
+    transition: all 0.15s ease;
+    font-weight: 500;
+}
+
+.dashboard a:hover {
+    color: var(--text-accent-hover);
+    text-decoration: underline;
+}
+
+.dashboard ul.dataview {
+    display: block !important;
+    padding-left: 1.2rem !important;
+    list-style-type: disc !important;
+}
+
+.dashboard ul.dataview > li {
+    margin-bottom: 0.3rem;
+    width: 100% !important;
+    min-width: unset !important;
+    box-shadow: none !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.dashboard ul.dataview > li::before {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .dashboard div > ul > li {
+        flex: 1 0 calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 800px) {
+    .dashboard div > ul > li {
+        flex: 1 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard div > ul > li {
+        flex: 1 0 100%;
+    }
+    .dashboard .markdown-preview-section .title {
+        font-size: 2rem !important;
+    }
+}
+
+// header
+/*
+author: relkion
+source: https://discord.com/channels/686053708261228577/744933215063638183/1006815302866186260
+*/
+
+/*--colorful heading underline for headings and hr--*/
+
+/* h1::after, */
+/* .HyperMD-header-1::after, */
+/* h2::after, */
+/* .HyperMD-header-2::after, */
+/* h3::after, */
+/* .HyperMD-header-3::after, */
+/* h4::after, */
+/* .HyperMD-header-4::after, */
+/* h5::after, */
+/* .HyperMD-header-5::after, */
+/* h6::after, */
+/* .HyperMD-header-6::after, */
+/* .markdown-preview-view hr, */
+/* .hr.cm-line, */
+/* .HyperMD-hr-bg { */
+/* background: linear-gradient( */
+/* 90deg, */
+/* rgba(194, 24, 91, 0.8) 10%, */
+/* rgba(137, 46, 127, 0.8) 0 20%, */
+/* rgba(79, 67, 163, 0.8) 0 30%, */
+/* rgba(34, 103, 163, 0.8) 0 40%, */
+/* rgba(0, 151, 167, 0.8) 0 50%, */
+/* rgba(82, 173, 90, 0.8) 0 60%, */
+/* rgba(166, 172, 64, 0.8) 0 70%, */
+/* rgba(249, 171, 37, 0.8) 0 80%, */
+/* rgba(230, 109, 42, 0.8) 0 90%, */
+/* rgba(211, 47, 47, 0.8) 0 */
+/* ); */
+/* } */
+
+/*--center h1--*/
+h1,
+.HyperMD-header-1 {
+    text-align: center;
+}
+
+/* h1::after, */
+/* .HyperMD-header-1::after, */
+/* h2::after, */
+/* .HyperMD-header-2::after, */
+/* h3::after, */
+/* .HyperMD-header-3::after, */
+/* h4::after, */
+/* .HyperMD-header-4::after, */
+/* h5::after, */
+/* .HyperMD-header-5::after, */
+/* h6::after, */
+/* .HyperMD-header-6::after { */
+/* margin-top: 0.2em; */
+/* content: ""; */
+/* width: auto !important; */
+/* display: flex !important; */
+/* height: 0.3em; */
+/* border-radius: 10px; */
+/* } */
+/**/
+/* /*--Taken from ITS: Horizontal Linebreak, HR--*/
+*/
+/* .markdown-source-view.mod-cm6 .cm-content :is(.hr, .HyperMD-hr) { */
+/* contain: style !important; */
+/* } */
+/**/
+/* .markdown-preview-view hr, */
+/* .hr.cm-line, */
+/* .HyperMD-hr-bg { */
+/* margin-block-start: 2em; */
+/* margin-block-end: 2em; */
+/* border: none; */
+/* border-radius: 3px; */
+/* height: 3px; */
+/* } */
+/**/
+/* .hr.cm-line hr { */
+/* border: 0; */
+/* } */
+/**/
+/* /*Stylized HR/Horizontal Line*/ */
+/* .hr.cm-line::after, */
+/* .markdown-preview-view hr::after, */
+/* div:not(.CodeMirror-activeline) > .HyperMD-hr-bg::after { */
+/* content: "★"; */
+/* display: inline-block; */
+/* position: absolute; */
+/* left: 50%; */
+/* font-size: 13px; */
+/* color: var(--text-sub-accent); */
+/* padding: 0 0.5em; */
+/* /*--margin-top might need tweaking if symbol is misaligned--*/ */
+/* margin-top: -0.6em; */
+/* /*--set to transparent or delete for clear symbol bg--*/ */
+/* background-color: var(--background-primary); */
+/* } */
+
+/*
+author: sailKite
+source: https://discord.com/channels/686053708261228577/702656734631821413/1134127383872536576
+*/
+
+/* image caption collapsible callout */
+.callout[data-callout="img-caption"] {
+    --callout-color: none;
+    --callout-icon: none;
+    padding: 20px 0px;
+}
+.callout[data-callout="img-caption"] > .callout-title {
+    font-size: 0px;
+    justify-content: center;
+}
+.callout[data-callout="img-caption"] > :is(.callout-icon, .callout-fold) {
+    display: none;
+}
+.callout[data-callout*="img-caption"] > .callout-content {
+    text-align: center;
+}
+
+/* Link Styling */
+.markdown-source-view.mod-cm6 .is-unresolved .cm-underline,
+.markdown-source-view.mod-cm6 .cm-underline.is-unresolved,
+.markdown-source-view.mod-cm6 .cm-underline {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: var(--text-normal);
+    text-decoration-color: var(--color-accent);
+    text-decoration-skip-ink: none;
+    font-weight: 600;
+}
+
+.markdown-rendered .internal-link {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: var(--text-normal);
+    text-decoration-color: var(--color-accent);
+    text-decoration-skip-ink: none;
+    font-weight: 600;
+}
+.markdown-rendered .internal-link:hover {
+    text-decoration: none;
+    color: var(--text-accent);
+    font-weight: 600;
+}
+
+.external-link {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: var(--text-normal);
+    text-decoration-color: var(--color-accent);
+    text-decoration-skip-ink: none;
+    font-weight: 600;
+}
+
+.external-link:hover {
+    text-decoration: none;
+    color: var(--text-accent);
+    font-weight: 600;
+}
+
+/* Table */
+.markdown-preview-view table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Tag Styling
+
+/*
+author: Bluemoondragon07, FireIsGood
+source: https://forum.obsidian.md/t/hiding-hashtags-but-again/61706?u
+*/
+
+@font-face {
+    font-family: "Formular";
+    src: url("data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAXMAA4AAAAACOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAFZAAAABYAAAAWABMABkdQT1MAAAV8AAAAIAAAACBEdkx1R1NVQgAABZwAAAAvAAAAMCN+JIxPUy8yAAACDAAAAEcAAABgII84HWNtYXAAAAJUAAAAMQAAADwAOwB9Z2FzcAAABVwAAAAIAAAACP//AANnbHlmAAABRAAAACgAAAAoKX11F2hlYWQAAAGcAAAANgAAADYW4dEnaGhlYQAAAewAAAAgAAAAJA/2Cc9obXR4AAAB1AAAABgAAAAYDeYAd2xvY2EAAAGMAAAADQAAAA4APAA8bWF4cAAAAWwAAAAeAAAAIABLAEVuYW1lAAACiAAAAq4AAAXocAf8uHBvc3QAAAU4AAAAJAAAADNVXVC5AAIAdwAAA8MFtgADAAcAADMRIRElIREhdwNM/T8CNf3LBbb6SoEEtHjaY2BkYGBgY3BiYGYAASYgZmQAiTmA+QwACZIAkQAAeNpjYGAQQUAAAt4AeQAAAAABAAAAAgCDDlp/b18PPPUACwgAAAAAAM8sf4QAAAAA4KMGkP+m/lgITAc7AAAACAACAAAAAAAABDkAdwAAAAACqgAAAAAAAAI5AAAEygAAeNpjYGRgYLP8Z8l4krv//zIGBg4fBqAICmADAH24BNx42mNgZrnJOIGBlYGB1ZjlLAMDwywIzXSWIY0pC0gzIAFGBnTgwKDAoMxm+c+S8ST7XcY3CgwM08EKfzCdAlIKDEwAU4UM+QB42mNgYGBiYGBgBmIRIMkIplkYNIA0G5BmBMoqMCj//w/kg+n/T/4/AqsCAgCI4wiyAAAAeNqtUrtu1EAUvfZu3g/RISGERqJJpMReVkFityKJlBSRUEgRiXJsjx+s12ONZ9dxw5/QUFJS8QF8AZ9CS8Px7CRrIJEosOWZc1/nnrkeInrmFOTQ4nmHb4EdWoe1wC6tEbe4Ry8ptbjfyVmhHfpo8WrHv0Zv6bPF67RHPy3e6ODNTt8teuw8t3i7g3dozxlbvEtPnQBKnP4GrC/OB4sdeuQOLHZp131tcY/eu28s7ndyVuiJ+9Xi1Y5/jT653y1ep8uetnijgzc7fbfI632zeLuDd5D/w+JdetU/OZVlo7Ik1Wwv3GfDwYujQywjFjTsnDe8EOyEJxGvuIJxwK4bHqaiyvmcXWQqy0UxkR47znNmSCqmRCXUXETemVTTWc7VlUjabUHW5VpS3TGN2W3VuJUyuhaqymTBht5gMLzMBa8EGsRCMS2ZTgVbqq9EqNvUWCoTiWWhmVY8ElOuJoxrrbJgZlIKqbNQVN6/ni/Vuhz7fl3XXqBkXcTyxpMqOS4aNoOgOtOpnGlWCjXNKqM3q1ipZJoFmRaRLe+W+jkEFKHw6ZQkldSQoowS3GJNDLcwpH3sQxrQCzqiQ4tG8AXIZXSOu9/gK0jAOgFKKMJa4VM2coDItcEheAViOfAc3gv0avvl8BY0gQIP3mPYOfalkspYbaXAPscaIfMM+YqmNDN8iq7gT+6srrKHdN2n6m9NY3T/s9f4biojsLSqKtRIVLR+D5EB9kvDwo3uxQlik8twJmnW1ETum31bEwLdssZGwbImNn5tPAo9IninRtsEPg6vNnwBNC9ZCuytFZoTe//9/6Wmb4n5+Hhr83rQoBCrkdOqvoGnPUuCP12YWzSzE6rB1Z5PGs0MPMJMPUN8Od/M3IfScKbmhG1Veyd+7/5QVx96FxMozOr/AnWqLjEAAHjaY2BiAIP/DAxpDNgAGxAzMjAxMjEwM7Cx+IX6+AAAP3gCvAAAAAH//wACAAEAAAAMAAAAAAAAAAIAAQADAAUAAQAAAAEAAAAKABwAHgABREZMVAAIAAQAAAAA//8AAAAAAAB42mNgZGBg4GLQYdBjYHZx8wlhEEmuLMphkMtJLMljkGNgAcoy/P/PAAcArlkHTgA=")
+        format("woff");
+}
+
+/* Hide hashtag (reading mode) */
+a.tag {
+    font-family: "Formular", var(--font-text);
+    padding: 9px 0.55em 5px 0;
+}
+a.tag:hover {
+    padding: 5px 7px 5px 7px !important;
+    font-family: var(--font-text);
+}
+
+/* Hide hashtag (live preview mode) */
+.cm-line:not(.cm-active) .cm-hashtag-begin {
+    display: none;
+}
+.cm-line:not(.cm-active) .cm-hashtag-end {
+    border-radius: var(--tag-radius) !important;
+    padding-left: var(--tag-padding-x);
+    border-left: var(--tag-border-width) solid var(--tag-border-color);
+}
+
+/* prevent overlapping tags on separate lines */
+p:has(.tag ~ br ~ .tag) {
+    line-height: 2;
+}
+.cm-line:has(.cm-meta):has(+ .cm-line .cm-meta) {
+    padding-bottom: 6px;
+}
+
+// Theorem Callout
+/*
+author: sailKite, elevict
+source: https://discord.com/channels/686053708261228577/702656734631821413/1164269429543149598
+*/
+
+.callout[data-callout="theorem"] {
+    --callout-color: var(--text-normal);
+    /* font-family: Times; */
+    background-color: rgb(0, 0, 0, 0);
+}
+.callout[data-callout="theorem"] .callout-icon {
+    display: none;
+}
+/* .callout[data-callout="theorem"] .callout-title-inner { */
+/* font-weight: revert; */
+/* } */
+.callout[data-callout="theorem"] .callout-content {
+    font-style: normal;
+}
+
+.callout[data-callout="header"] {
+    --callout-color: var(--text-normal);
+    background-color: rgb(0, 0, 0, 0); /* Latar belakang transparan */
+    text-align: center; /* Meratakan semua teks di dalamnya ke tengah */
+}
+
+.callout[data-callout="header"] .callout-icon {
+    display: none; /* Menyembunyikan ikon */
+}
+
+/* Opsional: Jika ada elemen yang tidak rata tengah secara otomatis */
+.callout[data-callout="header"] .callout-title,
+.callout[data-callout="header"] .callout-content {
+    text-align: center;
+}
+// HAPUS SATU KARAKTER '}' DARI SINI
