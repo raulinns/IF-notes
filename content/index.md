@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - callouts-outlined
   - dashboard
 ---
 > [!header] Dashboard
@@ -18,8 +17,6 @@ Selamat belajar, berbuat salah, dan semangat untuk kuisnya! Semoga bermanfaat, y
     - [[MA1101 Matematika]]
     - [[KI1101 Kimia]]
     
-
-
 
 
 Catatan ini ditulis di Obsidian dan di-*publish* menggunakan [Quartz 4](https://quartz.jzhao.xyz/). 

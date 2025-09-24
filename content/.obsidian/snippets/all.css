@@ -1,9 +1,3 @@
-@use "./base.scss";
-
-// HAPUS BARIS @use "./base.scss"; DARI SINI
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-// put your custom CSS here!
 /* callouts 02 */
 .callout::after {
     content: "";
@@ -583,4 +577,3 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11642
 .callout[data-callout="header"] .callout-content {
     text-align: center;
 }
-// HAPUS SATU KARAKTER '}' DARI SINI

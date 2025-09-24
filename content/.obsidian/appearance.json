@@ -1,1 +1,10 @@
-{}
+{
+  "enabledCssSnippets": [
+    "all"
+  ],
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "nativeMenus": false
+}
