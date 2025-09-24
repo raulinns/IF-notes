@@ -397,8 +397,8 @@ h1,
 /* border-radius: 10px; */
 /* } */
 /**/
-/* /*--Taken from ITS: Horizontal Linebreak, HR--*/
-*/
+/* --Taken from ITS: Horizontal Linebreak, HR--*/
+
 /* .markdown-source-view.mod-cm6 .cm-content :is(.hr, .HyperMD-hr) { */
 /* contain: style !important; */
 /* } */
@@ -417,8 +417,9 @@ h1,
 /* border: 0; */
 /* } */
 /**/
-/* /*Stylized HR/Horizontal Line*/ */
+/* Stylized HR/Horizontal Line*/
 /* .hr.cm-line::after, */
+
 /* .markdown-preview-view hr::after, */
 /* div:not(.CodeMirror-activeline) > .HyperMD-hr-bg::after { */
 /* content: "★"; */
@@ -428,9 +429,10 @@ h1,
 /* font-size: 13px; */
 /* color: var(--text-sub-accent); */
 /* padding: 0 0.5em; */
-/* /*--margin-top might need tweaking if symbol is misaligned--*/ */
+/* --margin-top might need tweaking if symbol is misaligned--*/
 /* margin-top: -0.6em; */
-/* /*--set to transparent or delete for clear symbol bg--*/ */
+/* /*--set to transparent or delete for clear symbol bg--*/
+
 /* background-color: var(--background-primary); */
 /* } */
 
