@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f5dd4334d3df99af",
+        "id": "0d8513dbab80ae16",
         "type": "tabs",
         "children": [
           {
-            "id": "f1766aa8083c9bac",
+            "id": "109fff1b32f60d1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projek/Web Development/01-Introduction to Web Development.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Introduction to Web Development"
+              "title": "index"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -140,20 +142,37 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "3b0e58a4369b7384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d2958411ba07c30",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,14 +186,20 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "f1766aa8083c9bac",
+  "active": "109fff1b32f60d1f",
   "lastOpenFiles": [
-    "Projek/Web Development/Web Development.md",
-    "Projek/Web Development/01-Introduction to Web Development.md",
+    "Kuliah/Semester-3/03-Aljabar-Linear-dan-Geometri-IF2123/IF2123 Aljabar Linear dan Geometeri.md",
+    "Kuliah/Semester-3/03-Aljabar-Linear-dan-Geometri-IF2123/Materi/00-Pengantar-Aljabar-Geometri.pdf",
     "index.md",
+    "Untitled.md",
+    "Index/Semester-3/IF2110 Algoritma dan Pemrograman.md",
+    "Index/Semester-1/FI1101 Fisika.md",
+    "Projek/Web Development/01-Introduction to Web Development.md",
+    "Projek/Web Development/Web Development.md",
     "Home.md"
   ]
 }
