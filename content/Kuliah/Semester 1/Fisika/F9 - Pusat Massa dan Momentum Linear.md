@@ -12,39 +12,50 @@ Pusat massa dari sistem partikel adalah representasi benda dari sebuah sistem pa
 
 Posisi pusat massa dari sistem $n$-partikel dapat ditentukan dari
 
-$$\begin{equation}  
-x_{pm} = \frac{m_1x_1+m_2x_2+\dots+m_nx_n}{M }=\frac{1}{M}\sum^n_{i=1}m_ix_i \nonumber  
-\end{equation}$$
+
+$$  
+x_{pm} = \frac{m_1x_1+m_2x_2+\dots+m_nx_n}{M }=\frac{1}{M}\sum^n_{i=1}m_ix_i
+$$
 
 dengan $M$ adalah total massa ($m_1x_1 + m_2x_2+\dots +m_nx_n$).
 
 Dari rumus tersebut, dapat ditentukan posisi pusat massa pada benda tiga dimensi.
 
-$$\boxed{x_{pm}=\frac{1}{M}\sum_{i=1}^nm_ix_i}$$
-
-$$\boxed{y_{pm}=\frac{1}{M}\sum_{i=1}^nm_iy_i}$$
-
-$$\boxed{z_{pm}=\frac{1}{M}\sum_{i=1}^nm_iz_i}$$
+$$
+\begin{align*}
+x_{pm} &= \frac{1}{M}\sum_{i=1}^nm_ix_i \\
+y_{pm} &= \frac{1}{M}\sum_{i=1}^nm_iy_i \\
+z_{pm}&=\frac{1}{M}\sum_{i=1}^nm_iz_i \\
+\end{align*}
+$$
 
 Posisi partikel juga dinotasikan sebagai $\vec r_i = x_i \hat{i} + y_i \hat{j}+z_i \hat{k}$. Dari notasi tersebut, posisi pusat massa dinotasikan sebagai.
 
-$$\vec r_{pm} = x_{pm} \hat{i} + y_{pm} \hat{j}+z_{pm} \hat{k}$$
+$$
+\vec r_{pm} = x_{pm} \hat{i} + y_{pm} \hat{j}+z_{pm} \hat{k}
+$$
 
 Sehingga diperoleh,
 
-$$\boxed{\vec{r}_{pm} = \frac{1}{M} \sum_{i=1}^n m_i \vec{r}_i \tag*{satuan: (dalam notasi vektor)}}$$
+$$
+\vec{r}_{pm} = \frac{1}{M} \sum_{i=1}^n m_i \vec{r}_i \tag*{satuan: (dalam notasi vektor)}
+$$
 
 Namun, dalam dunia nyata, tentunya akan ada sangat banyak (mendekati tak hingga) partikel (atom) pada suatu benda. Hal ini dapat kita perlakukan sebagai sebuah distribusi materi yang kontinu. Partikel yang ada pada sebuah benda pun bisa dianggap sangat kecil sehingga tiap partikelnya memiliki elemen massa $\Delta m$. Sehingga, karena distribusi materinya kontinu (syarat integral) dan partikel yang ada mendekati tak hingga. Maka, rumus di atas dapat dituliskan sebagai.
 
-$$x_{pm} = \frac{1}{M}\lim_{n\to\infty}\sum_{i=1}^nx \ \Delta m \iff x_{pm} = \frac{1}{M} \int x \ dm$$
+$$
+x_{pm} = \frac{1}{M}\lim_{n\to\infty}\sum_{i=1}^nx \ \Delta m \iff x_{pm} = \frac{1}{M} \int x \ dm
+$$
 
 Maka, dengan cara yang sama dapat ditentukan
 
-$$x_{pm}=\frac{1}{M}\int x \ dm$$
-
-$$y_{pm}=\frac{1}{M}\int y \ dm$$
-
-$$z_{pm}=\frac{1}{M}\int z \ dm$$
+$$
+\begin{align*}
+x_{pm}&=\frac{1}{M}\int x \ dm \\
+y_{pm}&=\frac{1}{M}\int y \ dm \\
+z_{pm}&=\frac{1}{M}\int z \ dm \\
+\end{align*}
+$$
 
 Tentunya, rumus integral ini akan jauh lebih mudah jika benda yang dihitung adalah benda dengan densitas ($\rho = \frac{m}{V}$) yang seragam.
 
@@ -52,11 +63,13 @@ $$\rho = \frac{m}{V} \implies \rho = \frac{\Delta m}{\Delta V}=\frac{M}V \implie
 
 Maka, dengan cara yang sama dapat ditentukan
 
-$$x_{pm}=\frac{1}{V}\int x \ dV$$
-
-$$y_{pm}=\frac{1}{V}\int y \ dV$$
-
-$$z_{pm}=\frac{1}{V}\int z \ dV$$
+$$
+\begin{align*}
+x_{pm}&=\frac{1}{V}\int x \ dV \\
+y_{pm}&=\frac{1}{V}\int y \ dV \\
+z_{pm}&=\frac{1}{V}\int z \ dV \\
+\end{align*}
+$$
 
 Hal ini juga berlaku untuk massa per satuan luas ($\sigma = \frac{M}{A}$) dan massa per satuan panjang ($\lambda = \frac{M}{L}$)
 
@@ -80,43 +93,52 @@ Catatan: Gaya internal, seperti ledakan tidak akan mengubah lintasan dari pusat 
 
 Momentum didefinisikan sebagai sebuah karakteristik dari benda yang menentukan seberapa sulit untuk menghentikan sebuah objek yang bergerak. Momentum linear disebut untuk membedakannya dengan momentum sudut atau momentum angular.
 
-$$\boxed{\vec p = m\vec v \tag*{satuan: kg ⋅ m/s atau N ⋅ s}}$$
+$$
+\vec p = m\vec v \tag{satuan: kg ⋅ m/s atau N ⋅ s}
+$$
 
 Momentum dari sebuah benda dapat ditentukan dari momentum sistem partikelnya.
 
-$$v_{pm}=\frac{m_1 \vec v_1 +m_2 \vec v_2 +\dots+m_n \vec v_n}{M} \implies Mv_{pm}= m_1 \vec v_1 +m_2 \vec v_2 +\dots+m_n \vec v_n \implies \vec P = \vec p_1 + \vec p_2 + \dots+\vec p_n$$
-
-$$\vec P = Mv_{pm}$$
+$$
+\begin{align*}
+v_{pm} =\frac{m_1 \vec v_1 +m_2 \vec v_2 +\dots+m_n \vec v_n}{M} &\implies Mv_{pm} = m_1 \vec v_1 +m_2 \vec v_2 +\dots+m_n
+\vec v_n \\ \implies \vec P = \vec p_1 + \vec p_2 + \dots+\vec p_n &\implies \vec P = Mv_{pm}
+\end{align*}
+$$
 
 dengan $M$ adalah massa total benda.
 
 $$\Sigma F = ma = m\frac{dv}{dt}=\frac{d}{dt}(mv) = \implies \Sigma F=\frac{d\vec p}{dt}$$
-
   
-
 Sehingga, dapat dikatakan bahwa momentum suatu benda dapat berubah dengan memberikan gaya eksternal.
 
 # Impuls
 
 Berdasarkan rumus di atas dan menganggap $\Sigma F$ sebagai fungsi gaya terhadap waktu $F(t)$, dapat diperoleh,
 
-$$\begin{aligned}  
+$$
+\begin{aligned}  
 \Sigma F &= \frac{d\vec p}{dt} \\ \\d\vec p &= F(t) \ dt  
-\end{aligned}$$
+\end{aligned}
+$$
 
 Dari sini, kita dapat mengintegralkan persamaan tersebut dari waktu sebelum gaya diberikan (tumbukan) $t_i$ sampai waktu setelah gaya diberikan $t_f$.
 
-$$\begin{aligned}  
+$$
+\begin{aligned}  
 \int_{t_i}^{t_f} d\vec p &= \int_{t_i}^{t_f} F(t) dt  
 \\ \\  
 p_f-p_i &= \int_{t_i}^{t_f} F(t) dt  
 \\ \\  
 \Delta p &= \int_{t_i}^{t_f} F(t) dt  
-\end{aligned}$$
+\end{aligned}
+$$
 
 Perubahan dari momentum $\Delta p$ inilah yang akan dinamakan impuls, yaitu perubahan momentum akibat gaya yang bekerja selama interval waktu tertentu
 
-$$\boxed{\vec J = \Delta p =\int_{t_i}^{t_f}F(t) dt \tag{satuan: N ⋅ s}}$$
+$$
+\vec J = \Delta p =\int_{t_i}^{t_f}F(t) dt \tag{satuan: N ⋅ s}
+$$
 
 Rumus ini dapat diartikan luas di bawah kurva $F(t)$-$t$ dari $t_i$ sampai $t_f$, seperti **Gambar 2.**
 
@@ -128,17 +150,21 @@ Rumus ini dapat diartikan luas di bawah kurva $F(t)$-$t$ dari $t_i$ sampai $t_f$
 
 Namun, berdasarkan Teori Nilai Rata-Rata, dapat diperoleh **Gambar 3**. Sehingga, dapat diperoleh rumus berikut.
 
-$$\boxed{\vec J =F_{avg}\Delta t}$$
+$$
+\vec J =F_{avg}\Delta t
+$$
 
 ## Kekekalan Momentum Linear
 
 Jika tidak ada gaya eksternal ($\Sigma F=0 \implies \vec J = 0$) yang diberikan pada kedua sistem partikel (terisolasi) dan kedua sistem tidak berkurang atau bertambah partikel/massanya (tertutup), maka berlaku kekekalan momentum linear.
 
-$$\begin{aligned}  
+$$
+\begin{aligned}  
 \vec P_i &= \vec P_f  
 \\ \vec p_{1i} + \vec p_{2i} &= \vec p_{1f} + \vec p_{2f}  
 \\ m\vec v_{1i} + m\vec v_{2i} &= m\vec v_{1f} + m\vec v_{2f}  
-\end{aligned}$$
+\end{aligned}
+$$
 
 # Tumbukan
 
@@ -153,12 +179,14 @@ Dalam kondisi ini, kedua benda bergerak pada arah yang sama, tetapi benda pertam
 
 Dalam hal ini, karena kedua sistem tertutup dan terisolasi, maka berlaku hukum kekekalan momentum linear, sehingga
 
-$$\begin{aligned}  
+$$
+\begin{aligned}  
 \vec P_i &= \vec P_f  
 \\  
 \vec p_{1i} + \vec p_{2i} &= \vec p_{2i} + \vec p_{2f}  
 \\ m_1\vec v_{1i} + m_2\vec v_{2i} &= m_1\vec v_{1f} + m_2\vec v_{2f}  
-\end{aligned}$$
+\end{aligned}
+$$
 
 ## Tumbukan Tidak Lenting
 
@@ -169,11 +197,13 @@ Dalam kondisi ini, benda 1 bergerak menuju dan menumbuk benda 2 selagi benda 2 d
 
 Berlaku hukum kekekalan momentum linear, sehingga
 
-$$\begin{aligned}  
+$$
+\begin{aligned}  
 m\vec v_{1i} + m\vec v_{2i} &= m\vec v_{1f} + m\vec v_{2f}  
 \\  
 m_1\vec v_{1i} + 0&= (m_1 + m_2)V  
-\end{aligned}$$
+\end{aligned}
+$$
 
 Perhatikan bahwa $V = \frac{m_1}{m_1+m_2}\vec v_{1i}$, sehingga $V$ tidak mungkin lebih besar dari $\vec v_{1i}$ karena rasionya.
 
@@ -187,11 +217,13 @@ Dalam kondisi ini, benda 1 bergerak menuju dan menumbuk benda 2 selagi benda 2 d
 
 Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
 
-$$\begin{aligned}  
-    m_1\vec v_{1i} + 0 &= m_1 \vec v_{1f} + m_2 \vec v_{2f}  
-    \\  
-    \frac{1}{2}m_1v_{1i}^2 + 0 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
-    \end{aligned}$$
+$$
+\begin{aligned}  
+m_1\vec v_{1i} + 0 &= m_1 \vec v_{1f} + m_2 \vec v_{2f}  
+\\  
+\frac{1}{2}m_1v_{1i}^2 + 0 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
+\end{aligned}
+$$
 
 Untuk mendapatkan rumus $v_{1f}$ dan $v_{2f}$ dapat dilakukan dengan manipulasi aljabar dan membagi persamaan 1 dan persamaan 2. Setelah itu, dapat pula dikaji bagaimana jika $m_1 =m_2$, $m_2 \gg m_1$, dan $m_1 \gg m_2$.
 
@@ -202,11 +234,12 @@ Untuk mendapatkan rumus $v_{1f}$ dan $v_{2f}$ dapat dilakukan dengan manipulasi 
 
 Berlaku hukum kekekalan momentum linear dan kekekalan energi sehingga
 
-$$\begin{aligned}  
-    m_1\vec v_{1i} + m_2\vec v_{2i} &= m_1 \vec v_{1f} + m_2 \vec v_{2f}  
-    \\  
-    \frac{1}{2}m_1v_{1i}^2 + \frac{1}{2}m_2v_{2i}^2 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
-    \end{aligned}$$
+$$
+\begin{aligned}  
+m_1\vec v_{1i} + m_2\vec v_{2i} &= m_1 \vec v_{1f} + m_2 \vec v_{2f}\\  
+\frac{1}{2}m_1v_{1i}^2 + \frac{1}{2}m_2v_{2i}^2 &= \frac{1}{2}m_1v_{1f}^2 + \frac{1}{2}m_1v_{2f}^2  
+\end{aligned}
+$$
 
 ### Tumbukan Dua Dimensi
 
@@ -215,8 +248,12 @@ $$\begin{aligned}
 
 Dal~am tumbukan, berlaku kekekalan momentum linear sehingga,
 
-$$\vec P_{1i}+ \vec P_{2i} = \vec P_{1f}+ \vec P_{2f}$$
+$$
+\vec P_{1i}+ \vec P_{2i} = \vec P_{1f}+ \vec P_{2f}
+$$
 
 dan untuk tumbungan lenting sempurna berlaku kekekalan energi kinetik sehingga,
 
-$$K_{1i}+ K_{2i} = K_{1f}+ K_{2f}$$
+$$
+K_{1i}+ K_{2i} = K_{1f}+ K_{2f}
+$$

@@ -9,11 +9,14 @@
     "external-link",
     "image-caption",
     "theorem-callout",
-    "header"
+    "header",
+    "indent"
   ],
   "cssTheme": "Catppuccin",
   "theme": "obsidian",
-  "baseFontSize": 22,
+  "baseFontSize": 18,
   "baseFontSizeAction": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showRibbon": false,
+  "showViewHeader": true
 }

@@ -1,2 +1,6 @@
-- [[01-Introduction to Web Development]]
--  
+---
+cssclasses:
+  - dashboard
+---
+- ## Web Development
+	[[Introduction to Web Development]]
