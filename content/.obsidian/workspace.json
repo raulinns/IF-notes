@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "IF2150 Rekayasa Perangkat Lunak"
             }
+          },
+          {
+            "id": "410e0db50ea978e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IF2150 Rekayasa Perangkat Lunak"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -189,10 +204,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "426c18261f243eba",
+  "active": "410e0db50ea978e8",
   "lastOpenFiles": [
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/04-Class-Modeling.pdf",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
     "index.md",
@@ -210,7 +225,6 @@
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/02-Ekspresi-Kondisional.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/01-Berpikir-Abstrak-dalam-Paradigma-Pemrograman-Fungsional.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/00-Pengantar-Perkuliahan.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/00-Diktat-Struktur-Data.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Tipe Bentukan.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Rekursif.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Paradigma Fungsional.md",

@@ -3,16 +3,21 @@
 @use "./dashboard.scss";
 
 body {
-    /*     /* Mengatur font utama untuk seluruh aplikasi (antarmuka dan teks catatan). */
-    /*     Fallback ke font sans-serif standar jika Montserrat tidak ditemukan. */
-    /*   */
-    /*     --font-default: "Montserrat", sans-serif; */
-    /*     --font-interface: "Montserrat", sans-serif; */
-    /*     --font-text: "Montserrat", sans-serif; */
-    /**/
-    /*     /* Mengatur font khusus untuk semua elemen monospace. */
-    /*     Ini termasuk code block, inline code, dan frontmatter. */
-    /*     Fallback ke font monospace standar jika JetBrains Mono tidak ditemukan. */
+    /* Mengatur font utama untuk seluruh aplikasi (antarmuka dan teks catatan).
+    Fallback ke font sans-serif standar jika Plus Jakarta Sans tidak ditemukan.
+  */
+    --font-default: "Plus Jakarta Sans", sans-serif;
+    --font-interface: "Plus Jakarta Sans", sans-serif;
+    --font-text: "Plus Jakarta Sans", sans-serif;
+
+    /* --font-default: "JetBrains Mono", monospace; */
+    /* --font-interface: "JetBrains Mono", monospace; */
+    /* --font-text: "JetBrains Mono", monospace; */
+
+    /* Mengatur font khusus untuk semua elemen monospace.
+    Ini termasuk code block, inline code, dan frontmatter.
+    Fallback ke font monospace standar jika JetBrains Mono tidak ditemukan.
+  */
     --font-monospace: "JetBrains Mono", monospace;
 }
 
