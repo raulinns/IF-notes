@@ -3,7 +3,8 @@ cssclasses:
   - dashboard
 ---
 - ## Probabilitas
-	
+	- [[Pendahuluan Statistika]]
+	- 
 
 - ## Materi Perkuliahan
 	- [[ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf|Buku Pengampu]]
