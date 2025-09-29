@@ -1,0 +1,22 @@
+---
+cssclasses:
+  - dashboard
+---
+- ## Matriks
+	- [[Matriks]]
+	- [[Sistem Persamaan Linear]]
+	- [[Determinan]]
+
+- ## Materi Perkuliahan
+	- [[Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf|Buku Pengampu]]
+	- [[00-Pengantar-Aljabar-Geometri.pdf]]
+	- [[01-Review-Matriks.pdf]]
+	- [[02-Matriks-Eselon.pdf]]
+	- [[03-Sistem-Persamaan-Linear.pdf]]
+	- [[04-Tiga-Kemungkinan-Solusi-SPL.pdf]]
+	- [[05-Sistem-Persamaan-Linier-2-2025.pdf]]
+	- [[06-Aplikasi-SPL-1-2025.pdf]]
+	- [[07-Aplikasi-SPL-2-2025.pdf]]
+	- [[08-Determinan-bagian1-2025.pdf]]
+	- [[09-Determinan-bagian2-2025.pdf]]
+	- [[10-Pengantar-Pemrograman-dengan-Bahasa-Java-2025.pdf]]
