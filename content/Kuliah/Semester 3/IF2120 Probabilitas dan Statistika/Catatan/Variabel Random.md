@@ -1,65 +1,37 @@
-> **Definisi**: Variabel random adalah sebuah fungsi yang memetakan setiap titik sampel dalam ruang sampel $S$ ke sebuah bilangan real $X(s)$.
-  
-Secara sederhana, variabel random mengubah hasil dari sebuah eksperimen (yang bisa berupa non-numerik, seperti 'Defektif' atau 'Normal') menjadi angka.
+> **Definisi**: Variabel random adalah sebuah fungsi $X:S \to R$ yang memetakan setiap titik sampel $s \in S$dalam ruang sampel $S$ ke sebuah bilangan real $X(s)$.
 
-  
+Ruang sampel diskrit adalah ruang sampel yang berisi sejumlah hingga kemungkinan hasil atau barisan tak hingga sebanyak elemen-elemen bilangan bulat. Contoh: Himpunan bilangan bulat.
 
-### Jenis Variabel Random
+Ruang Sampel Kontinu adalah ruang sampel berisi sejumlah tak hingga kemungkinan hasil , sama dengan sejumlah titik pada sebuah segmen garis. Contoh: Himpunan bilangan real.  
 
-- **Variabel Random Diskrit**: Dihasilkan dari ruang sampel yang jumlah anggotanya terbatas atau tak hingga tapi dapat dihitung (seperti bilangan bulat). Contohnya: jumlah telur yang diletakkan ayam per bulan.
+# Distribusi Peluang Diskrit
 
-- **Variabel Random Kontinu**: Dihasilkan dari ruang sampel yang berisi jumlah tak hingga kemungkinan hasil, seperti titik pada sebuah segmen garis. Contohnya: waktu yang dibutuhkan untuk bermain golf.
-
-  
-
----
-
-  
-
-## 2. Distribusi Peluang Diskrit
-
-  
-
-Distribusi ini menjelaskan bagaimana peluang tersebar di antara nilai-nilai yang mungkin dari sebuah variabel random diskrit.
-
-  
-
-### a. Fungsi Massa Peluang (Probability Mass Function - PMF)
-
-Fungsi $f(x)$ adalah fungsi peluang dari variabel random diskrit X jika memenuhi syarat:
-
+### a. Fungsi Massa Peluang (*Probability Mass Function*)
+Kumpulan pasangan terurut $(x, f(x))$ disebut fungsi peluang/fungsi massa peluang dari variabel random diskrit $X$ jika untuk setiap nilai $x$ dipenuhi:
 1.  $f(x) \ge 0$ 
 
 2.  $\sum_{x} f(x) = 1$ 
 
 3.  $P(X=x) = f(x)$ 
 
-  
-
-### b. Fungsi Distribusi Kumulatif (Cumulative Distribution Function - CDF)
-
-Distribusi kumulatif $F(x)$ dari variabel random diskrit X didefinisikan sebagai peluang bahwa X akan mengambil nilai yang lebih kecil atau sama dengan $x$.
-
-$$ F(x) = P(X \le x) = \sum_{t \le x} f(t), \quad \text{untuk } -\infty < x < \infty $$ 
-
-  
+### b. Fungsi Distribusi Kumulatif (Cumulative Distribution Function)
+Distribusi kumulatif $F(x)$ dari variabel random diskrit $X$ didefinisikan sebagai peluang bahwa X akan mengambil nilai yang lebih kecil atau sama dengan $x$.
+$$ F(x) = P(X \le x) = \sum_{t \le x} f(t), \quad \text{untuk } -\infty < x < \infty $$
 
 Grafik dari fungsi distribusi kumulatif untuk variabel diskrit akan berbentuk seperti tangga.
 
+# Variabel Random Kontinu
+Variabel random kontinu adalah peluang yang bernilai nol pada suatu titik. Oleh karena itu, distribusi peluang tidak dapat dituliskan dalam bentuk tabel. 
+
+Jika $X$ kontinu, maka:
+$$
+P(a < X \le b) = P(a < X <b) + P(X = b) = P(a < X < b)
+$$
+dan dapat dihitung sebagai berikut:
+$$
+	P(a < X < b) = \int_a^b f(x) \ dx
+$$
   
-
----
-
-  
-
-## 3. Distribusi Peluang Kontinu
-
-  
-
-Untuk variabel kontinu, peluang pada satu titik spesifik adalah nol. Oleh karena itu, kita mendefinisikan peluang pada sebuah interval.
-
-  
-
 ### a. Fungsi Kepadatan Peluang (Probability Density Function - PDF)
 
 Fungsi $f(x)$ adalah fungsi densitas peluang untuk variabel kontinu X jika memenuhi syarat:
@@ -68,36 +40,20 @@ Fungsi $f(x)$ adalah fungsi densitas peluang untuk variabel kontinu X jika memen
 
 2.  $\int_{-\infty}^{\infty} f(x) dx = 1$ 
 
-3.  Peluang X berada di antara a dan b dihitung dengan integral:
+3.  $P(a < X < b) = \int_{a}^{b} f(x) dx$ 
 
-    $$ P(a < X < b) = \int_{a}^{b} f(x) dx $$ 
-
-  
-
-Ini berarti peluang adalah luas area di bawah kurva $f(x)$ antara titik a dan b.
-
-  
+![[Pasted image 20250929045019.png]]
 
 ### b. Fungsi Distribusi Kumulatif (CDF)
+Distribusi kumulatif $F(x)$ dari variabel random kumulatif $X$ dengan distribusi peluang adalah:
+ $$
+P(a < X < b) = F(b) - F(a)
+$$ dan
+$$
+f(x) = \frac{d}{dx} F(X)
+$$
 
-Untuk variabel kontinu, CDF $F(x)$ juga didefinisikan sebagai $P(X \le x)$. Hubungannya dengan PDF adalah:
-
--   $P(a < X < b) = F(b) - F(a)$ 
-
--   $f(x) = \frac{dF(x)}{dx}$ 
-
-  
-
----
-
-  
-
-## 4. Distribusi Peluang Gabungan (Joint)
-
-  
-
-Ini digunakan ketika kita tertarik pada dua atau lebih variabel random secara bersamaan.
-
+# Distribusi Peluang Gabungan (Joint)
   
 
 -   **Kasus Diskrit**: Fungsi massa peluang gabungan $f(x,y) = P(X=x, Y=y)$. Syaratnya:
