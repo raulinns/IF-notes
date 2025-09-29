@@ -1,0 +1,22 @@
+{
+  "enabledCssSnippets": [
+    "all",
+    "tag",
+    "base",
+    "callouts-styling",
+    "codeblock-styling",
+    "dashboards",
+    "external-link",
+    "image-caption",
+    "theorem-callout",
+    "header",
+    "indent"
+  ],
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "nativeMenus": false,
+  "showRibbon": false,
+  "showViewHeader": true
+}

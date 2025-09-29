@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "460a5d90112a3d40",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d8513dbab80ae16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f2fdb9251cd0a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variabel Random"
+            }
+          },
+          {
+            "id": "4e1b9ff5749715af",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03-Variabel-Random"
+            }
+          },
+          {
+            "id": "ac6c4c76c91d3929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bfe35e5b72458d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "041d896aee1748ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da9dcfcfe58f149f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cd36ba012a339474",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2c932212dec1dfec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ecf1ea4bf4e5e5d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "31565328142faf6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8cf6a3befe2524a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "17c4d673b95919cd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kuliah/Semester-1/Matematika/M6 - Fungsi Transenden.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from M6 - Fungsi Transenden"
+            }
+          },
+          {
+            "id": "e91a1d020d933c8a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0cbca2e86772de8f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of IF2150 Rekayasa Perangkat Lunak"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3b0e58a4369b7384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d2958411ba07c30",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "ac6c4c76c91d3929",
+  "lastOpenFiles": [
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+    "Pasted image 20250929045019.png",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/02-Probabilitas.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Pendahuluan Statistika.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/01-Introduction-to-Statistics.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
+    "Kuliah/Semester 1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
+    "Kuliah/Semester 1/Fisika/F12 - Kesetimbangan dan Elastisitas.md",
+    "Kuliah/Semester 1/Fisika/F15 - Gelombang Mekanik.md",
+    "index.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Ekspresi Kondisional.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Untitled.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/07b-Distribusi-Sampel.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/07a-Distribusi-Sampel.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/06-Distribusi-Kontinu.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/05-Distribusi-Peluang-Diskrit.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/04-Nilai-Ekspektasi.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/IF2110 Algoritma dan Pemrograman.md",
+    "KI1101 Kimia.md",
+    "Kuliah/Semester 1/Fisika/FI1101 Fisika.md",
+    "Kuliah/Semester 1/Kimia/KI1101 Kimia.md",
+    "Kuliah/Resource Terdahulu.md",
+    "Kuliah/Resource Jurusan IF-STI.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Tipe Bentukan.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Rekursif.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Paradigma Fungsional.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/List.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
+    "Attachment/Semester-1/image 11 3.png",
+    "Attachment/Semester-1/image.png",
+    "Attachment/Semester-1/image 9.png",
+    "Attachment/Semester-1/image 9 6.png",
+    "Attachment/Semester-1/image 9 5.png",
+    "Attachment/Semester-1/image 9 4.png",
+    "Attachment/Semester-1/image 9 3.png",
+    "Attachment/Semester-1/image 9 2.png",
+    "Attachment/Semester-1/image 8.png"
+  ]
+}

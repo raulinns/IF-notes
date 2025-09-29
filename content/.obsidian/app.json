@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "vimMode": true
+}
