@@ -9,13 +9,14 @@
     overflow-y: hidden;
     box-sizing: border-box;
 
-  & > .callout-content {
-    display: grid;
-    transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
-    overflow: hidden;
+    & > .callout-content {
+        display: grid;
+        transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+        overflow: hidden;
 
-    & > :first-child {
-      margin-top: 0;
+        & > :first-child {
+            margin-top: 0;
+        }
     }
 
     --callout-icon-note: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg>');
@@ -117,20 +118,20 @@
         --callout-icon: var(--callout-icon-quote);
     }
 
-  &.is-collapsed {
-    & > .callout-title > .fold-callout-icon {
-      transform: rotateZ(-90deg);
-    }
+    &.is-collapsed {
+        & > .callout-title > .fold-callout-icon {
+            transform: rotateZ(-90deg);
+        }
 
-    .callout-content > :first-child {
-      transition:
-        height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
-        margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
-      overflow-y: clip;
-      height: 0;
-      margin-top: -1rem;
+        .callout-content > :first-child {
+            transition:
+                height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
+                margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+            overflow-y: clip;
+            height: 0;
+            margin-top: -1rem;
+        }
     }
-  }
 }
 
 .callout-title {
@@ -174,39 +175,4 @@
     .callout-title-inner {
         font-weight: $semiBoldWeight;
     }
-}
-
-.callout[data-callout="header"] {
-    --callout-color: rgb(0, 0, 0, 0);
-    text-align: center;
-}
-
-.callout[data-callout="theorem"] {
-    --callout-color: var(--text-normal);
-    background-color: rgb(0, 0, 0, 0);
-    border: solid;
-    border-radius: 6px;
-}
-.callout[data-callout="theorem"] .callout-icon {
-    display: none;
-}
-.callout[data-callout="theorem"] .callout-title-inner {
-    font-weight: revert;
-}
-
-/* image caption collapsible callout */
-.callout[data-callout="img-caption"] {
-    --callout-color: none;
-    --callout-icon: none;
-    padding: 20px 0px;
-}
-.callout[data-callout="img-caption"] > .callout-title {
-    font-size: 0px;
-    justify-content: center;
-}
-.callout[data-callout="img-caption"] > :is(.callout-icon, .callout-fold) {
-    display: none;
-}
-.callout[data-callout*="img-caption"] > .callout-content {
-    text-align: center;
 }
