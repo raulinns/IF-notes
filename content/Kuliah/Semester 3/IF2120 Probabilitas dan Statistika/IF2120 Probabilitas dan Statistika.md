@@ -5,6 +5,7 @@ cssclasses:
 - ## Probabilitas
 	- [[Pendahuluan Statistika]]
 	- [[Probabilitas]]
+	- [[Variabel Random]]
 
 - ## Materi Perkuliahan
 	- [[ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf|Buku Pengampu]]

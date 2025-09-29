@@ -11,10 +11,26 @@
             "id": "7f2fdb9251cd0a46",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Variabel Random"
+            }
+          },
+          {
+            "id": "714f4590fd789750",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03-Variabel-Random"
             }
           }
         ]
@@ -90,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Variabel Random"
             }
           },
           {
@@ -186,6 +203,10 @@
   },
   "active": "7f2fdb9251cd0a46",
   "lastOpenFiles": [
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
+    "index.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/IF2110 Algoritma dan Pemrograman.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Tipe Bentukan.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Rekursif.md",
@@ -201,9 +222,6 @@
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/05c-List-of-List.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/05a-Pendahuluan-List.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/04-Rekursif.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/03-Tipe-Bentukan.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Pendahuluan Statistika.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
@@ -220,8 +238,6 @@
     "Kuliah/Semester 1/Kimia/K8 - Dasar Ikatan dan Struktur Molekul.md",
     "Kuliah/Semester 1/Kimia/K7 - Struktur Atom.md",
     "Kuliah/Semester 1/Fisika/FI1101 Fisika.md",
-    "Kuliah/Semester 1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
-    "Kuliah/Semester 1/Fisika/F15 - Gelombang Mekanik.md",
     "Pasted image 20250929045019.png",
     "Attachment/Semester-1/image 11 3.png",
     "Attachment/Semester-1/image.png",

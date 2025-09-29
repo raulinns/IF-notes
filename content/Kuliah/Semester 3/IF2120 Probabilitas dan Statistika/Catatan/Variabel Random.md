@@ -48,64 +48,62 @@ Fungsi $f(x)$ adalah fungsi densitas peluang untuk variabel kontinu X jika memen
 Distribusi kumulatif $F(x)$ dari variabel random kumulatif $X$ dengan distribusi peluang adalah:
  $$
 P(a < X < b) = F(b) - F(a)
-$$ dan
+$$
+dan
+
 $$
 f(x) = \frac{d}{dx} F(X)
 $$
 
 # Distribusi Peluang Gabungan (Joint)
-  
+Jika $X$ dan $Y$ adalah dua variabel random diskrit, maka distribusi peluang untuk kejadian simultan dapat direpresentasikan dengan fungsi $f(x, y)$ untuk setiap pasangan $(x, y)$.
 
--   **Kasus Diskrit**: Fungsi massa peluang gabungan $f(x,y) = P(X=x, Y=y)$. Syaratnya:
+Fungsi ini disebut dengan distribusi peluang gabungan dari variabel random $X$ dan $Y$. 
 
-    1.  $f(x,y) \ge 0$ 
+### Kasus Diskrit
+ Fungsi $f(x, y)$ adalah distribusi peluang gabungan atau fungsi masa peluang dari variabel random diskrit $X$ dan $Y$$ jika:
+1. $f(x,y) \ge 0$ 
 
-    2.  $\sum_{x}\sum_{y} f(x,y) = 1$ 
+2. $\sum_{x}\sum_{y} f(x,y) = 1$
 
--   **Kasus Kontinu**: Fungsi densitas peluang gabungan $f(x,y)$. Syaratnya:
+3. $P (X = x, Y = y) = f(x,y)$ 
 
-    1.  $f(x,y) \ge 0$ 
+4. **Tambahan**: Untuk daerah sembarang A dalam bidang $xy$, $P[(x,y) \in A] = \sum_A \sum f(x, y)$
 
-    2.  $\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} f(x,y) dx dy = 1$ 
+### Kasus Kontinu
+Fungsi $f(x, y)$ adalah fungsi densitas gabungan dari variabel random kontinu $X$ dan $Y$ jika:
 
-  
+1.  $f(x,y) \ge 0$  untuk semua $(x,y)$
 
----
+2.  $\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} f(x,y) \ dx \ dy = 1$
 
-  
+3. $P[(X < Y) \in A] = \int \int_A f(x,y) \ dx \ dy$ untuk sembarang $A$ dalam bidang $xy$
 
-## 5. Distribusi Marginal & Bersyarat
-
-  
-
-### a. Distribusi Marginal
-
+# Distribusi Marginal
 Distribusi marginal adalah distribusi peluang dari satu variabel saja, yang didapat dari distribusi gabungan.
-
 -   **Diskrit**: $g(x) = \sum_{y} f(x,y)$ dan $h(y) = \sum_{x} f(x,y)$.
 
--   **Kontinu**: $g(x) = \int_{-\infty}^{\infty} f(x,y) dy$ dan $h(y) = \int_{-\infty}^{\infty} f(x,y) dx$.
+-   **Kontinu**: $g(x) = \int_{-\infty}^{\infty} f(x,y) \ dy$ dan $h(y) = \int_{-\infty}^{\infty} f(x,y) \ dx$.
 
-  
+# Distribusi Bersyarat
+Misalkan $X$ dan $Y$ adalah dua variabel random diskrit atau kontinu. Distribusi bersyarat dari variabel random $Y$, diberikan $X = x$ adalah 
+$$
+f(y|x) = \frac{f(x,y)}{g(x)}, \text{ dengan } g(x)>0
+$$
 
-### b. Distribusi Bersyarat
+Serta, distribusi bersyarat dari variabel random $X$, diberikan $Y = y$ adalah
+$$
+f(x|y) = \frac{f(x,y)}{h(y)}, \text{ dengan } h(y)>0
+$$
 
-Distribusi bersyarat $f(y|x)$ adalah distribusi peluang dari Y dengan syarat nilai X sudah diketahui.
+# Bebas Statistik (Statistically Independent)
+Misal $X$ dan $Y$  merupakan dua variable random (diskrit atau kontinu), dengan $f(x,y)$ merupakan distribusi peluang gabungan, $g(x)$ dan $h(y)$ merupakan distribusi marginal. Variabel random X, Y disebut bebas statistik jika
+$$
+f(x,y) = g(x) \cdot h(y)
+$$
 
-$$ f(y|x) = \frac{f(x,y)}{g(x)}, \text{ dengan } g(x)>0 $$ 
-
-  
-
----
-
-  
-
-## 6. Bebas Statistik (Statistically Independent)
-
-  
-
-Dua variabel random X dan Y dikatakan bebas secara statistik jika dan hanya jika distribusi gabungan mereka sama dengan perkalian distribusi marginal masing-masing.
-
-$$ f(x,y) = g(x) \cdot h(y) $$ 
-
-Jika persamaan ini tidak terpenuhi, maka kedua variabel tersebut saling bergantung.
+Misal $X_1, X_2, \dots , X_n$ adalah $n$ variabel acak, diskrit or kontinu, dengan distribusi peluang gabungan $f(x_1, x_2, \dots , x_n)$ dan distribusi marginal $f_1(x_1), f_2(x_2), \dots , f_n(x_n)$. Variabel acak $X_1, X_2, \dots , X_n$ bersifat statistically independent jika: 
+$$
+f(x_1, x_2, \dots , x_n) = f_1(x_1)f_2(x_2) \dots f_n(x_n)
+$$
+untuk semua $(x_1, x_2, \dots, x_n)$ dalam batasan nilainya.3
