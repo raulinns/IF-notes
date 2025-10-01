@@ -9,8 +9,8 @@
     "external-link",
     "image-caption",
     "theorem-callout",
-    "header",
-    "indent"
+    "indent",
+    "header"
   ],
   "cssTheme": "Catppuccin",
   "theme": "obsidian",

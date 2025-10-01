@@ -4,33 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8513dbab80ae16",
+        "id": "4b71699705dca2b2",
         "type": "tabs",
         "children": [
           {
-            "id": "7f2fdb9251cd0a46",
+            "id": "968cdd275e4a8b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variabel Random"
+              "title": "IF2120 Probabilitas dan Statistika"
             }
           },
           {
-            "id": "714f4590fd789750",
+            "id": "95272c529a94f0ce",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf"
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/04-Nilai-Ekspektasi.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "03-Variabel-Random"
+              "title": "04-Nilai-Ekspektasi"
             }
           }
         ]
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Variabel Random"
+              "title": "Backlinks for IF2120 Probabilitas dan Statistika"
             }
           },
           {
@@ -183,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,44 +202,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7f2fdb9251cd0a46",
+  "active": "968cdd275e4a8b03",
   "lastOpenFiles": [
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Nilai Ekspektasi.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
     "index.md",
+    "Attachment/Pasted image 20250904012404.png",
+    "Attachment/Semester-3/Pasted image 20250929045019.png",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/04-Nilai-Ekspektasi.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/04-Class-Modeling.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03a-Scenario-Based-Modeling.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/02b-Rekayasa-Kebutuhan.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/02a-Kebutuhan-Perangkat-Lunak.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/01b-Model-Proses.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/01a-Pendahuluan.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/05-Distribusi-Peluang-Diskrit.pdf",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/IF2110 Algoritma dan Pemrograman.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Tipe Bentukan.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Rekursif.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Paradigma Fungsional.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/List.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Ekspresi Kondisional.md",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/00-Pengantar-Perkuliahan.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/02-Ekspresi-Kondisional.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/05b-Operasi-pada-List.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/00-Diktat-Dasar-Pemrograman-Fungsional.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/01-Berpikir-Abstrak-dalam-Paradigma-Pemrograman-Fungsional.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/05c-List-of-List.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/05a-Pendahuluan-List.pdf",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/04-Rekursif.pdf",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Pendahuluan Statistika.md",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/02-Sistem-Operasi-IF2130.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
     "Kuliah/Resource TPB.md",
     "Kuliah/Resource Jurusan IF-STI.md",
     "Kuliah/Semester 1/Kimia/KI1101 Kimia.md",
     "Kuliah/Semester 1/Kimia/K9 - Teori Ikatan Kimia.md",
     "Kuliah/Semester 1/Kimia/K8 - Dasar Ikatan dan Struktur Molekul.md",
     "Kuliah/Semester 1/Kimia/K7 - Struktur Atom.md",
-    "Kuliah/Semester 1/Fisika/FI1101 Fisika.md",
-    "Pasted image 20250929045019.png",
     "Attachment/Semester-1/image 11 3.png",
     "Attachment/Semester-1/image.png",
     "Attachment/Semester-1/image 9.png",
@@ -246,7 +248,6 @@
     "Attachment/Semester-1/image 9 5.png",
     "Attachment/Semester-1/image 9 4.png",
     "Attachment/Semester-1/image 9 3.png",
-    "Attachment/Semester-1/image 9 2.png",
-    "Attachment/Semester-1/image 8.png"
+    "Attachment/Semester-1/image 9 2.png"
   ]
 }

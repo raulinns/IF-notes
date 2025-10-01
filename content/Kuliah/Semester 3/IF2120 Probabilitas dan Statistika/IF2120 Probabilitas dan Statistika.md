@@ -6,6 +6,7 @@ cssclasses:
 	- [[Pendahuluan Statistika]]
 	- [[Probabilitas]]
 	- [[Variabel Random]]
+	- [[Nilai Ekspektasi]]
 
 - ## Materi Perkuliahan
 	- [[ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf|Buku Pengampu]]
