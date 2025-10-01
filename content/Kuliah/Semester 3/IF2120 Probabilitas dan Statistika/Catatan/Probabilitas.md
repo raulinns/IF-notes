@@ -57,13 +57,17 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 # Aturan Bayes
+> **Rumus Umum Bayes**
+> $$
+> P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+> $$
 
 > **Teorema**: Jika kejadian-kejadian $B_1, B_2, ..., B_k$ merupakan partisi dari ruang sampel S, maka untuk sembarang kejadian A:
-> $$
+>$$
 > P(B_r|A) = \frac{P(B_r \cap A)}{\sum_{i=1}^{k} P(B_i \cap A)} = \frac{P(B_r)P(A|B_r)}{\sum_{i=1}^{k} P(B_i)P(A|B_i)}
-> $$ 
+> $$
 
 > **Teorema Aturan Eliminasi (Peluang Total)**: Peluang kejadian A dapat dihitung dengan menjumlahkan peluang A yang terjadi bersama setiap partisi. 
 >  $$
-> P(A) = \sum_{i=1}^{k} P(B_i)P(A|B_i) 
-> $$
+P(A) = \sum_{i=1}^{k} P(B_i)P(A|B_i) 
+$$

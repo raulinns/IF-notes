@@ -5,8 +5,7 @@ Ruang sampel diskrit adalah ruang sampel yang berisi sejumlah hingga kemungkinan
 Ruang Sampel Kontinu adalah ruang sampel berisi sejumlah tak hingga kemungkinan hasil , sama dengan sejumlah titik pada sebuah segmen garis. Contoh: Himpunan bilangan real.  
 
 # Distribusi Peluang Diskrit
-
-### a. Fungsi Massa Peluang (*Probability Mass Function*)
+### Fungsi Massa Peluang (*Probability Mass Function*)
 Kumpulan pasangan terurut $(x, f(x))$ disebut fungsi peluang/fungsi massa peluang dari variabel random diskrit $X$ jika untuk setiap nilai $x$ dipenuhi:
 1.  $f(x) \ge 0$ 
 
@@ -14,14 +13,14 @@ Kumpulan pasangan terurut $(x, f(x))$ disebut fungsi peluang/fungsi massa peluan
 
 3.  $P(X=x) = f(x)$ 
 
-### b. Fungsi Distribusi Kumulatif (Cumulative Distribution Function)
+###  Fungsi Distribusi Kumulatif (*Cumulative Distribution Function*)
 Distribusi kumulatif $F(x)$ dari variabel random diskrit $X$ didefinisikan sebagai peluang bahwa X akan mengambil nilai yang lebih kecil atau sama dengan $x$.
 $$ F(x) = P(X \le x) = \sum_{t \le x} f(t), \quad \text{untuk } -\infty < x < \infty $$
 
 Grafik dari fungsi distribusi kumulatif untuk variabel diskrit akan berbentuk seperti tangga.
 
-# Variabel Random Kontinu
-Variabel random kontinu adalah peluang yang bernilai nol pada suatu titik. Oleh karena itu, distribusi peluang tidak dapat dituliskan dalam bentuk tabel. 
+# Distribusi Peluang Kontinu
+Distribusi Peluang kontinu adalah peluang yang bernilai nol pada suatu titik. Oleh karena itu, distribusi peluang tidak dapat dituliskan dalam bentuk tabel. 
 
 Jika $X$ kontinu, maka:
 $$
@@ -32,8 +31,7 @@ $$
 	P(a < X < b) = \int_a^b f(x) \ dx
 $$
   
-### a. Fungsi Kepadatan Peluang (Probability Density Function - PDF)
-
+### Fungsi Kepadatan Peluang (*Probability Density Function* )
 Fungsi $f(x)$ adalah fungsi densitas peluang untuk variabel kontinu X jika memenuhi syarat:
 
 1.  $f(x) \ge 0$ untuk semua $x$ 
@@ -44,7 +42,7 @@ Fungsi $f(x)$ adalah fungsi densitas peluang untuk variabel kontinu X jika memen
 
 ![[Pasted image 20250929045019.png]]
 
-### b. Fungsi Distribusi Kumulatif (CDF)
+### Fungsi Distribusi Kumulatif (*Cumulative Distribution Function*)
 Distribusi kumulatif $F(x)$ dari variabel random kumulatif $X$ dengan distribusi peluang adalah:
  $$
 P(a < X < b) = F(b) - F(a)

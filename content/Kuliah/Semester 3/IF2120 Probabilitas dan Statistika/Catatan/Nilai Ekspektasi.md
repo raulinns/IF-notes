@@ -31,14 +31,16 @@ $$
 \sigma^2 = E[(X-\mu)^2] = \sum_{x} (x-\mu)^2 f(x) 
 $$
 -   Untuk variabel random **kontinu**:
-    $$ \sigma^2 = E[(X-\mu)^2] = \int_{-\infty}^{\infty} (x-\mu)^2 f(x) \,dx $$
+$$
+\sigma^2 = E[(X-\mu)^2] = \int_{-\infty}^{\infty} (x-\mu)^2 f(x) \,dx 
+$$
 
 > **Teorema (Rumus Cepat Variansi)**: Variansi juga dapat dihitung dengan rumus yang lebih praktis:
 > $$
-\sigma^2 = E(X^2) - \mu^2
-$$
+> \sigma^2 = E(X^2) - \mu^2 = E(X^2) - E(X)^2
+> $$
 
-**Simpangan Baku (Standard Deviation)**: Akar kuadrat dari variansi, dinotasikan dengan $\sigma$, juga merupakan ukuran sebaran dan memiliki unit yang sama dengan data aslinya.
+**Simpangan Baku (Standard Deviation)**: Akar kuadrat dari variansi, dinotasikan dengan , juga merupakan ukuran sebaran dan memiliki unit yang sama dengan data aslinya.
 
 # Kovariansi
 > **Definisi**: Kovariansi ($\sigma_{XY}$) adalah ukuran yang menunjukkan bagaimana dua variabel random (X dan Y) bergerak bersama-sama.
@@ -59,8 +61,8 @@ $$
 
 > **Teorema (Rumus Cepat Kovariansi)**:
 > $$
-\sigma_{XY} = E(XY) - \mu_X \mu_Y
-$$
+> \sigma_{XY} = E(XY) - \mu_X \mu_Y
+> $$
 
 # Koefisien Korelasi
 > **Definisi**: Koefisien korelasi ($\rho_{XY}$) adalah versi standar dari kovariansi. Nilainya selalu berada di antara -1 dan 1, sehingga lebih mudah diinterpretasikan.
@@ -72,8 +74,6 @@ $$
 Rumusnya adalah:
 $$ \rho_{XY} = \frac{\sigma_{XY}}{\sigma_X \sigma_Y} $$
 
----
-
 # Rataan dari Kombinasi Linear
 > **Teorema**: Jika $a$ dan $b$ adalah konstanta:
 > 1. $E(aX + b) = aE(X) + b$
@@ -81,14 +81,14 @@ $$ \rho_{XY} = \frac{\sigma_{XY}}{\sigma_X \sigma_Y} $$
 > 3. $E[g(X,Y) \pm h(X,Y)] = E[g(X,Y)] \pm E[h(X,Y)]$
 
 > **Teorema**: Jika X dan Y adalah variabel random yang **saling bebas**:
-> $$ E(XY) = E(X)E(Y) $$
+> $$
+> E(XY) = E(X)E(Y)
+> $$
 
 # Variansi dari Kombinasi Linear
 > **Teorema**: Jika $a$ dan $b$ adalah konstanta, dan X serta Y adalah variabel random:
 > 1. $\sigma^2_{aX+b} = a^2 \sigma^2_X$
 > 2. $\sigma^2_{aX+bY} = a^2 \sigma^2_X + b^2 \sigma^2_Y + 2ab\sigma_{XY}$
-
----
 
 # Teorema Chebyshev
 > **Teorema Chebyshev**: Teorema ini memberikan batas bawah (lower bound) untuk peluang sebuah variabel random akan berada dalam jarak $k$ simpangan baku dari rata-ratanya, **tanpa memandang bentuk distribusinya**.
