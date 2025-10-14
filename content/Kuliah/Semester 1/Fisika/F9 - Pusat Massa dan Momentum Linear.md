@@ -143,6 +143,7 @@ $$
 Rumus ini dapat diartikan luas di bawah kurva $F(t)$-$t$ dari $t_i$ sampai $t_f$, seperti **Gambar 2.**
 
 >[!img-caption] ![[image 1 7.png|image 1 7.png]]
+
 >Gambar 2
 
 >[!img-caption] ![[image 2 6.png|image 2 6.png]]

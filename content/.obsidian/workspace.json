@@ -4,115 +4,100 @@
     "type": "split",
     "children": [
       {
-        "id": "4b71699705dca2b2",
-        "type": "tabs",
+        "id": "094b412451efa5be",
+        "type": "split",
         "children": [
           {
-            "id": "968cdd275e4a8b03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IF2120 Probabilitas dan Statistika"
-            }
+            "id": "33ab038f613175ee",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "211e641010441c78",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Ruang Vektor Umum.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Ruang Vektor Umum"
+                }
+              }
+            ]
           },
           {
-            "id": "4c9fa5b4f789ff58",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/02-Probabilitas.pdf"
+            "id": "f82f9f27e7e1e797",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "61dbea071fcdc1df",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "IF2123 Aljabar Linear dan Geometri"
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "02-Probabilitas"
-            }
-          },
-          {
-            "id": "4bc53dcbcafb79f0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf"
+              {
+                "id": "6a64c75126c9121a",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/18-Ruang-vektor-umum-Bagian4-2025.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "18-Ruang-vektor-umum-Bagian4-2025"
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "03-Variabel-Random"
-            }
-          },
-          {
-            "id": "e6e247849ae06100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
-                "mode": "preview",
-                "source": false
+              {
+                "id": "e10476376c723138",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/17-Ruang-vektor-umum-Bagian3-2025.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "17-Ruang-vektor-umum-Bagian3-2025"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Probabilitas"
-            }
-          },
-          {
-            "id": "83df374c06f8efb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "d126cbbc70f1929b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/16-Ruang-vektor-umum-Bagian2-2025.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "16-Ruang-vektor-umum-Bagian2-2025"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Variabel Random"
-            }
-          },
-          {
-            "id": "9a19a052bf003ef2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Nilai Ekspektasi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nilai Ekspektasi"
-            }
-          },
-          {
-            "id": "96979a6c9d6a70e2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/04-Nilai-Ekspektasi.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "04-Nilai-Ekspektasi"
-            }
-          },
-          {
-            "id": "7b8fcca18fa2e1ae",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole"
-            }
+              {
+                "id": "99860cd9489197f5",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/15-Ruang-vektor-umum-Bagian1-2025.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "15-Ruang-vektor-umum-Bagian1-2025"
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
-        "currentTab": 5
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -281,52 +266,52 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9a19a052bf003ef2",
+  "active": "211e641010441c78",
   "lastOpenFiles": [
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/18-Ruang-vektor-umum-Bagian4-2025.pdf",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Ruang Vektor Umum.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/17-Ruang-vektor-umum-Bagian3-2025.pdf",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/16-Ruang-vektor-umum-Bagian2-2025.pdf",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/15-Ruang-vektor-umum-Bagian1-2025.pdf",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor di Ruang Euclidean.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/14-Aplikasi-dot-product-pada-IR-2025.pdf",
+    "Untitled.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/13-Vektor-di-Ruang-Euclidean-Bag3-2025.pdf",
+    "Pasted image 20251014231501.png",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/12-Vektor-di-Ruang-Euclidean-Bag2-2025.pdf",
+    "Pasted image 20251014181706.png",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/11-Vektor-di-Ruang-Euclidean-Bag1-2025.pdf",
+    "index.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor di Ruang Euclidean.md~",
+    "Vektor di Ruang Euclidean.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor-di-Ruang-Euclidean.md~",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor-di-Ruang-Euclidean.md",
+    "Pasted image 20251014005022.png",
+    "Pasted image 20251014004911.png",
+    "Kuliah/Semester 1/Fisika/F9 - Pusat Massa dan Momentum Linear.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Nilai Ekspektasi.md",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/04-Nilai-Ekspektasi.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/ProbabilityStatistics_for_EngineersScientists(9th_Edition)_Walpole.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/03-Variabel-Random.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/02-Probabilitas.pdf",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Variabel Random.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Probabilitas.md",
+    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Pendahuluan Statistika.md",
+    "Pasted image 20251013230020.png",
+    "Pasted image 20251013225654.png",
+    "Pasted image 20251013224337.png",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
+    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/IF2110 Algoritma dan Pemrograman.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
     "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/IF2120 Probabilitas dan Statistika.md",
     "Kuliah/Semester 1/Matematika/M6 - Fungsi Transenden.md",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Catatan/Pendahuluan Statistika.md",
-    "index.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Materi/Andrew-S-Tanenbaum-Modern-Operating-Systems.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/01-Introduction-to-Statistics.pdf",
-    "Kuliah/Semester 3/IF2120 Probabilitas dan Statistika/Materi/00-Deskripsi-Kuliah.pdf",
     "Attachment/Pasted image 20250904012404.png",
     "Attachment/Semester-3/Pasted image 20250929045019.png",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/04-Class-Modeling.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03a-Scenario-Based-Modeling.pdf",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/IF2110 Algoritma dan Pemrograman.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Tipe Bentukan.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Rekursif.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Paradigma Fungsional.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/List.md",
     "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Catatan/Ekspresi Kondisional.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/02-Sistem-Operasi-IF2130.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
-    "Kuliah/Resource TPB.md",
-    "Kuliah/Resource Jurusan IF-STI.md",
-    "Kuliah/Semester 1/Kimia/KI1101 Kimia.md",
-    "Kuliah/Semester 1/Kimia/K9 - Teori Ikatan Kimia.md",
-    "Kuliah/Semester 1/Kimia/K8 - Dasar Ikatan dan Struktur Molekul.md",
-    "Attachment/Semester-1/image 11 3.png",
-    "Attachment/Semester-1/image.png",
-    "Attachment/Semester-1/image 9.png",
-    "Attachment/Semester-1/image 9 6.png",
-    "Attachment/Semester-1/image 9 5.png",
-    "Attachment/Semester-1/image 9 4.png",
-    "Attachment/Semester-1/image 9 3.png",
-    "Attachment/Semester-1/image 9 2.png"
+    "Attachment/Semester-1/image 11 3.png"
   ]
 }

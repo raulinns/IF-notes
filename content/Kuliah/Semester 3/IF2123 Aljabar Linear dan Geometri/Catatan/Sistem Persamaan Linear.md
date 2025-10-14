@@ -1,8 +1,8 @@
-# Sistem Persamaan Linear (SPL)
+# Sistem Persamaan Linier (SPL)
 
 ## Bentuk Umum SPL
 
-Linear dalam SPL berarti pangkat tertinggi di dalam variabelnya sama dengan 1. Sebuah SPL dengan $m$ buah persamaan dan $n$ variabel $x_1, x_2, \dots, x_n$ berbentuk:
+Linier dalam SPL berarti pangkat tertinggi di dalam variabelnya sama dengan 1. Sebuah SPL dengan $m$ buah persamaan dan $n$ variabel $x_1, x_2, \dots, x_n$ berbentuk:
 $$
 \begin{align}
 a_{11} \cdot x_{1} + a_{12} \cdot x_{2} + \cdots + a_{1n} \cdot x_{n} &= b_1  \\
@@ -75,7 +75,7 @@ a_{21} && a_{22} && \cdots && a_{2n} && | && b_2\\
 a_{m1} && a_{m2} && \cdots && a_{mn} && | && b_m \\
 \end{bmatrix}
 $$
-\*Tidak wajib ada garis antara $A$ dan $b$, karena diketahui bahwa kolom paling kanan pasti merupakan $b$ atau hasil dari persamaan linear.
+\*Tidak wajib ada garis antara $A$ dan $b$, karena diketahui bahwa kolom paling kanan pasti merupakan $b$ atau hasil dari persamaan linier.
 
 Contoh: 
 $$
@@ -129,9 +129,9 @@ $$
 
 ### Kemungkinan Solusi SPL
 Ada tiga kemungkinan solusi yang dapat terjadi pada SPL:
-1. mempunyai solusi yang unik/tunggal (seluruh persamaan linear berpotongan tepat di satu titik), 
-2. mempunyai banyak/tak hingga solusi (seluruh persamaan linear berpotongan di satu garis/bidang), atau
-3. tidak memiliki solusi sama sekali (seluruh persamaan linear tidak berpotongan)
+1. mempunyai solusi yang unik/tunggal (seluruh persamaan linier berpotongan tepat di satu titik), 
+2. mempunyai banyak/tak hingga solusi (seluruh persamaan linier berpotongan di satu garis/bidang), atau
+3. tidak memiliki solusi sama sekali (seluruh persamaan linier tidak berpotongan)
 
 Bentuk akhir matriks setelah eliminasi Gauss untuk ketiga kemungkinan solusi SPL $Ax = b$ dapat digambarkan sebagai berikut
 ![[Pasted image 20250921013444.png]]
@@ -162,8 +162,8 @@ Metode eliminasi Gauss-Jordan terdiri dari dua fase.
 2. Fase mundur (*backward phase*), yaitu menghasilkan nilai-nilai 0 di atas satu utama.
 Kedua fased apat dilakukan secara bersamaan atau sekuensial.
 
-## Sistem Persamaan Linear Homogen
-Sistem persamaan linear homogen berbentuk
+## Sistem Persamaan Linier Homogen
+Sistem persamaan linier homogen berbentuk
 $$
 \begin{align}
 a_{11} \cdot x_{1} + a_{12} \cdot x_{2} + \cdots + a_{1n} \cdot x_{n} &= 0  \\
@@ -239,8 +239,8 @@ Solusi dari polinom interpolasi derajat $n$ yang melalui titik-titik $(x_0, y_0)
 $$
 p_n(x) = a_0 + a_1 \cdot x + a_2 \cdot x^2 + \cdots + a_n \cdot x^n
 $$
-#### Interpolasi Linear
-Interpolasi linear adalah menginterpolasi dua buah titik dengan sebuah persamaan garis lurus. Misalkan diberikan dua buah titik $(x_0, y_0)$ dan $(x_1, y_1)$. Polinom yang menginterpolasi kedua titik itu adalah
+#### Interpolasi Linier
+Interpolasi linier adalah menginterpolasi dua buah titik dengan sebuah persamaan garis lurus. Misalkan diberikan dua buah titik $(x_0, y_0)$ dan $(x_1, y_1)$. Polinom yang menginterpolasi kedua titik itu adalah
 $$
 p_1(x) = a_0 + a_1 \cdot x
 $$

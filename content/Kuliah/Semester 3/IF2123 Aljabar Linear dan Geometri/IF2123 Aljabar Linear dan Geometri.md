@@ -6,6 +6,8 @@ cssclasses:
 	- [[Matriks]]
 	- [[Sistem Persamaan Linear]]
 	- [[Determinan]]
+	- [[Vektor di Ruang Euclidean]]
+	- [[Ruang Vektor Umum]]
 
 - ## Materi Perkuliahan
 	- [[Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf|Buku Pengampu]]
@@ -20,3 +22,11 @@ cssclasses:
 	- [[08-Determinan-bagian1-2025.pdf]]
 	- [[09-Determinan-bagian2-2025.pdf]]
 	- [[10-Pengantar-Pemrograman-dengan-Bahasa-Java-2025.pdf]]
+	- [[11-Vektor-di-Ruang-Euclidean-Bag1-2025.pdf]]
+	- [[12-Vektor-di-Ruang-Euclidean-Bag2-2025.pdf]]]
+	- [[13-Vektor-di-Ruang-Euclidean-Bag3-2025.pdf]]
+	- [[14-Aplikasi-dot-product-pada-IR-2025.pdf]]
+	- [[15-Ruang-vektor-umum-Bagian1-2025.pdf]]
+	- [[16-Ruang-vektor-umum-Bagian2-2025.pdf]]
+	- [[17-Ruang-vektor-umum-Bagian3-2025.pdf]]
+	- [[18-Ruang-vektor-umum-Bagian4-2025.pdf]]

@@ -15,7 +15,7 @@ Jika matriks berukuran $m = n$, maka matriks tersebut dinamakan matriks persegi 
 
 Diagonal utama matriks persegi berukuran $n \times n$ adalah elemen $a_{ij}$ dengan $i = j$. Matriks $m \times n$ tidak memiliki diagonal utama.
 
-Kegunaan matriks di bidang informatika adalah untuk representasi data, misalkan representasi graf, representasi citra digital, matriks kernel di dalam metode deep learning, serta representasi sistem persamaan linear.
+Kegunaan matriks di bidang informatika adalah untuk representasi data, misalkan representasi graf, representasi citra digital, matriks kernel di dalam metode deep learning, serta representasi sistem persamaan linier.
 
 ## Operasi pada matriks
 ### Penjumlahan Matriks
@@ -57,9 +57,9 @@ $$
 
 dengan $i = 1, 2, \dots, m$ dan $j = 1,2, \dots, n$. 
 
-### Kombinasi Linear
+### Kombinasi Linier
 
-Perkalian matriks dapat dipandang sebagai kombinasi linear. Misalkan:
+Perkalian matriks dapat dipandang sebagai kombinasi linier. Misalkan:
 
 $$
 A = 
