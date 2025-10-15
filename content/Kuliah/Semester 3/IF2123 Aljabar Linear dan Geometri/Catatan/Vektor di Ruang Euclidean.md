@@ -11,18 +11,18 @@ Ruang vektor (*vector space*) adalah ruang tempat vektor didefinisikan atau dise
 > [!img-caption] ![[Pasted image 20251013230020.png]]
 
 > Vektor di $R^n$ didefinisikan sebagai:
-> 
->$$
-> v = (v_{1}, v_{2}, \dots, v_{n})$ \textsf{ atau }
-> v = 
-> \begin{bmatrix}
-> v_{1}  \\
-> v_{2} \\ \\
-> v_{3} \\
-> \vdots  \\
-> v_{n}
-> \end{bmatrix}
-> $$
+
+$$
+v = (v_{1}, v_{2}, \dots, v_{n})$ \textsf{ atau }
+v = 
+\begin{bmatrix}
+v_{1}  \\
+v_{2} \\
+v_{3} \\
+\vdots  \\
+v_{n}
+\end{bmatrix}
+$$
 
 Semua vektor yang ditulis sebagai $v=(v_{1}, v_{2}) , v = (v_{1},v_{2}, v_{3})$  berawal dari **titik asal** $O$.
 
@@ -354,12 +354,17 @@ $$
 
 # Aplikasi Geometri Perkalian Silang
 
-Luas Jajar Genjang (Parallelogram). Magnitudo (panjang) dari vektor hasil perkalian silang, $||\mathbf{u} \times \mathbf{v}||$, secara geometris setara dengan **luas jajar genjang** yang dibentuk oleh vektor **u** dan **v**. $$
+Luas Jajar Genjang (Parallelogram). Magnitudo (panjang) dari vektor hasil perkalian silang, $||\mathbf{u} \times \mathbf{v}||$, secara geometris setara dengan **luas jajar genjang** yang dibentuk oleh vektor **u** dan **v**. 
+$$
 \text{Luas} = ||\mathbf{u} \times \mathbf{v}||
 $$
->[!img-caption] ![[Pasted image 20251014231501.png]]
 
-Luas Segitiga Luas segitiga yang dibentuk oleh tiga titik $P_1, P_2, P_3$ adalah setengah dari luas jajar genjang yang dibentuk oleh vektor $\vec{P_1P_2}$ dan $\vec{P_1P_3}$. $$ \text{Luas Segitiga} = \frac{1}{2} ||\vec{P_1P_2} \times \vec{P_1P_3}|| $$ 1Volume Balok Miring (Parallelepiped) Volume dari balok miring yang dibentuk oleh tiga vektor **u**, **v**, dan **w** dapat dihitung menggunakan *scalar triple product*, yang setara dengan nilai absolut dari determinan matriks 3x3 yang dibentuk oleh ketiga vektor tersebut. 
+Luas Segitiga Luas segitiga yang dibentuk oleh tiga titik $P_1, P_2, P_3$ adalah setengah dari luas jajar genjang yang dibentuk oleh vektor $\vec{P_1P_2}$ dan $\vec{P_1P_3}$. 
+$$
+\text{Luas Segitiga} = \frac{1}{2} ||\vec{P_1P_2} \times \vec{P_1P_3}||
+$$
+
+Volume Balok Miring (Parallelepiped) Volume dari balok miring yang dibentuk oleh tiga vektor **u**, **v**, dan **w** dapat dihitung menggunakan *scalar triple product*, yang setara dengan nilai absolut dari determinan matriks 3x3 yang dibentuk oleh ketiga vektor tersebut. 
 $$
 \text{Volume} = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})| = \left| \det \begin{pmatrix} u_1 & u_2 & u_3 \\ v_1 & v_2 & v_3 \\ w_1 & w_2 & w_3 \end{pmatrix} \right|
 $$
