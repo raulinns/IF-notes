@@ -1,0 +1,5 @@
+Tujuan dari *multiprogramming* adalah untuk memiliki sejumlah proses yang berjalan di tiap waktu untuk memaksimalkan *CPU utilization*. Tujuan dari *timesharing* adalah untuk mengalihkan *CPU core* di antara proses-proses dengan frekuensi tinggi sehingga pengguna dapat **berinteraksi dengan setiap program** saat program itu berjalan. 
+
+Untuk memenuhi kedua tujuan ini, *process scheduler* memilih dari proses yang tersedia untuk dieksekusi dalam sebuah *core*. Tiap *CPU core* dapat mengerjakan satu proses dalam satu waktu. Jika jumlah proses melebihi jumlah _core_ yang tersedia, proses yang berlebihan harus menunggu hingga _core_ CPU bebas dan dapat dijadwalkan kembali. Jumlah proses yang sekarang berada pada memori disebut *degree of multiprogramming*. 
+
+Secara umum. sebuah proses dapat dideskripsikan antara *I/O bound* atau *CPU bound*. *I/O bound* adalah sebuah proses yang mengambil waktu lebih lama melakukan I/O dibanding komputasi. Sedangkan, *CPU-bound* adalah proses yang lebih banyak menghabiskan waktu melakukan komputasi. 

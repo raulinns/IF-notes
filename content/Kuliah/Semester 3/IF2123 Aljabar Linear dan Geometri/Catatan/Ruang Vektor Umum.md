@@ -1,4 +1,4 @@
-Konsep "vektor" diperluas dari sekadar panah di $R^2$ atau $R^3$ menjadi lebih abstrak, karena tidak mungkin digambar lagi melebihi tiga dimensi. Konsep vektor di ruang $R^n$ dapat diperluas sehingga berbagai objek matematika dapat diperlakukan sebagai vektor asalkan memenuhi serangkaian aturan yang disebut **aksioma ruang vektor**.
+1Konsep "vektor" diperluas dari sekadar panah di $R^2$ atau $R^3$ menjadi lebih abstrak, karena tidak mungkin digambar lagi melebihi tiga dimensi. Konsep vektor di ruang $R^n$ dapat diperluas sehingga berbagai objek matematika dapat diperlakukan sebagai vektor asalkan memenuhi serangkaian aturan yang disebut **aksioma ruang vektor**.
 
 Ruang vektor adalah himpunan-himpunan objek yang dilengkapi dengan dua operasi di dalam himpunan tersebut, yaitu
 1.  Penjumlahan antar objek (vektor).
