@@ -18,8 +18,15 @@ cssclasses:
 
 - ## Process dan Thread
 	- [[Konsep Process]]
-	-[[Process Scheduling]]
+	- [[Process Scheduling]]
+	- [[Operasi pada Process dan IPC]]
+
+- ## Scheduling dan Synchronization
 	- 
+
+- ## Deadlock
+	- 
+
 - ## Materi
 	- - [[Operating-System-Concepts.pdf]]
 	- - [[Rangkuman UTS Amar.pdf]]
