@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ecf1ea4bf4e5e5d9",
@@ -239,20 +240,21 @@
   },
   "active": "ac89055f47cc082f",
   "lastOpenFiles": [
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Materi/Operating-System-Concepts.pdf",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Operasi pada Process dan IPC.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/IF2130 Sistem Operasi.md",
+    "Pasted image 20251020051248.png",
+    "index.md",
     "Attachment/Semester-3/OS/Pasted image 20250929045019.png",
     "Attachment/Pasted image 20250904012404.png",
     "Attachment/Semester-3/OS",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Process Scheduling.md",
     "Attachment/Semester-3/OS/Pasted image 20251020045335.png",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Materi/Operating-System-Concepts.pdf",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Arsitektur Komputer.md",
     "Attachment/Semester-3/OS/Pasted image 20251019152246.png",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Process.md",
     "Pasted image 20251014231501.png.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Untitled.md",
-    "index.md",
     "Attachment/Semester-3/OS/Pasted image 20251020044102.png",
     "Attachment/Semester-3/OS/Pasted image 20251020043657.png",
     "Attachment/Semester-3/OS/Pasted image 20251020043635.png",
@@ -262,7 +264,6 @@
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/System Call.md",
     "Attachment/Semester-3/OS/Pasted image 20251020024203.png",
     "Attachment/Semester-3/OS/Pasted image 20251020024026.png",
-    "Attachment/Semester-3/OS/Pasted image 20251020023207.png",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Model Struktur OS.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Layanan OS.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Resource Management.md",
