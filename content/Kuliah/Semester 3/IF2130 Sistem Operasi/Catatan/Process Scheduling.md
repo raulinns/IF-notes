@@ -27,5 +27,7 @@ Penjadwalan CPU (_CPU scheduling_) adalah fungsi mendasar dari sistem operasi mo
 
 # Context Switch
 Ketika terjadi _interrupt_ atau _system call_ (seperti _page fault_ atau habisnya _time slice_), sistem harus **menghentikan eksekusi proses yang sedang berjalan** dan **menyimpan statusnya** sebelum menjalankan rutin kernel yang baru (atau proses/thread lain). Proses _context switch_ melibatkan dua langkah utama:
-1. Penyimpanan Status (_State Save_): Kernel menyimpan _context_ proses lama yang sedang berjalan pada _core_ CPU ke dalam _Process Control Block_ (PCB) milik proses tersebut
-2. **Pemulihan Status (****State Restore****):** Kernel memuat konteks yang tersimpan dari PCB proses baru yang dijadwalkan untuk berjalan
+1. Penyimpanan Status (_State Save_): Kernel menyimpan _context_ proses lama yang sedang berjalan pada *CPU core* ke dalam _Process Control Block_ (PCB) milik proses tersebut.
+2. Pemulihan Status (*State Restore*): Kernel memuat konteks yang tersimpan dari PCB proses baru yang dijadwalkan untuk berjalan ke *CPU core*.
+
+>[!img-caption] ![[Pasted image 20251020045335.png]]

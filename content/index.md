@@ -6,7 +6,10 @@ cssclasses:
 > [!header]  Dashboard
 > Selamat datang di *vault* catatan Endra! Umumnya, isi catatannya terkait informatika dan materi perkuliahan di Teknik Informatika ITB yang berbasis kurikulum [Teknik Informatika 2024](https://six.itb.ac.id/pub/kur2024/135)
 
-Selamat belajar, berbuat salah, dan semangat untuk kuisnya! Semoga bermanfaat, ya! 
+```
+Tenang di atas ya, Aidan! Ketemuan sama bokap gw, gih. Akur-akur, ya!
+```
+Selamat belajar, berbuat salah, dan semangat untuk kuis/ujian-nya! Semoga bermanfaat, ya! 
 
 - ## Semester 1
     - [[FI1101 Fisika]]

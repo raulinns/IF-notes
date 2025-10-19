@@ -1,0 +1,1 @@
+Proses pada kebanyakan sistem dapat tereksekusi secara konkuren dan dapat dibuat/dihapus secara dinamis.
