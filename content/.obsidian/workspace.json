@@ -8,33 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7705d41ef9a3ab5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version"
-            }
-          },
-          {
-            "id": "943aa98e58ef2e1b",
+            "id": "aaf77dccd9030942",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glosarium.md",
-                "mode": "source",
+                "file": "Latihan Soal dari Buku.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glosarium"
+              "title": "Latihan Soal dari Buku"
             }
           },
           {
-            "id": "848df00985752c80",
+            "id": "4133c54255b874b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,47 +34,9 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "276925082f062e8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Latihan Soal dari Buku.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latihan Soal dari Buku"
-            }
-          },
-          {
-            "id": "aaf77dccd9030942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Latsol dari Buku.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latsol dari Buku"
-            }
-          },
-          {
-            "id": "4133c54255b874b6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ecf1ea4bf4e5e5d9",
@@ -256,18 +205,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "848df00985752c80",
+  "active": "4133c54255b874b6",
   "lastOpenFiles": [
-    "Glosarium.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf",
-    "Latsol dari Buku.md",
     "Latihan Soal dari Buku.md",
+    "index.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf",
+    "Glosarium.md",
+    "Latsol dari Buku.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
     "Untitled.md",
     "Attachment/Semester-3/OS/Pasted image 20251020051248.png",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Algoritma Scheduling.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Thread.md",
-    "index.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Materi/Operating-System-Concepts.pdf",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Scheduling.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/IF2130 Sistem Operasi.md",

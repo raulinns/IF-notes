@@ -10,8 +10,6 @@ cssclasses:
 Tenang di atas ya, Aidan! Ketemuan sama bokap gw, gih. Akur-akur, ya!
 ```
 
-Mohon maaf, karena *website* ini masih di-*deploy* menggunakan ~~vercel~~. Sedang proses migrasi ke `netlify` atau platform *hosting* sejenisnya. Kemungkinan migrasi selesai setelah UTS agar tidak mengganggu pembelajaran. 
-
 Selamat belajar, berbuat salah, dan semangat untuk kuis/ujian-nya! Semoga bermanfaat, ya! 
 
 - ## Semester 1
