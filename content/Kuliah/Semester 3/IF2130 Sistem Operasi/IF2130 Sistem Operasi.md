@@ -20,9 +20,14 @@ cssclasses:
 	- [[Konsep Process]]
 	- [[Process Scheduling]]
 	- [[Operasi pada Process dan IPC]]
+	- [[Konsep Thread]]
+	- 
 
 - ## Scheduling dan Synchronization
-	- 
+	- [[Konsep Scheduling]]
+	- [[Algoritma Scheduling]]
+	- [[Algoritma Tingkat Lanjut Scheduling]]
+	- [[]]
 
 - ## Deadlock
 	- 
