@@ -9,9 +9,17 @@ cssclasses:
 - ## Kebutuhan PL
 	- [[Kebutuhan Perangkat Lunak]]
 	- [[Rekayasa Kebutuhan]]
+	- [[Penulisan SKPL]]
 
 - ## Scenario-Based Modelling
 	- [[Scenario-Based Modelling]]
+
+- ## Class-Modelling
+	- [[Class Modelling]]
+
+- ## Architecture Design
+	- [[Desain Arsitektur]]
+
 
 - ## Materi Perkuliahan
 	- [[00-Pengantar-Kuliah.pdf]]
