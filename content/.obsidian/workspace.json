@@ -13,12 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "IF2150 Rekayasa Perangkat Lunak"
+            }
+          },
+          {
+            "id": "a9f8d51b53206c41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scenario-Based Modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scenario-Based Modelling"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "537c787a30fa9756",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9344657371be31e3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03a-Scenario-Based-Modeling.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03a-Scenario-Based-Modeling"
             }
           }
         ]
@@ -78,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ecf1ea4bf4e5e5d9",
@@ -190,38 +224,44 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bbfcd4f6dbd1d446",
+  "active": "a9f8d51b53206c41",
   "lastOpenFiles": [
-    "Attachment/Semester-1/image 4 4.png",
-    "Attachment/Semester-1/image 2 7.png",
-    "Attachment/Semester-1/image 7 8.png",
-    "Attachment/Semester-1/image 2 3.png",
-    "Attachment/Semester-1/image 5 5.png",
-    "Attachment/Semester-1/image 7 9.png",
-    "Attachment/Semester-1/image 18.png",
-    "Attachment/Semester-1/image.png",
-    "Attachment/Semester-1/image 9.png",
-    "Attachment/Semester-1/image 9 6.png",
-    "Attachment/Semester-1/image 9 5.png",
+    "Pasted image 20251022034446.png",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03a-Scenario-Based-Modeling.pdf",
+    "Scenario-Based Modelling.md",
+    "Pasted image 20251022032630.png",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/02a-Kebutuhan-Perangkat-Lunak.pdf",
+    "Rekayasa Kebutuhan.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/02b-Rekayasa-Kebutuhan.pdf",
+    "Kebutuhan Perangkat Lunak.md",
+    "Pasted image 20251022012101.png",
+    "Model Proses.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/00-Pengantar-Kuliah.pdf",
+    "Pendahuluan RPL.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/01a-Pendahuluan.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/01b-Model-Proses.pdf",
+    "Pasted image 20251022001634.png",
+    "Pasted image 20251022001543.png",
+    "Pasted image 20251021221648.png",
+    "Pasted image 20251021220340.png",
+    "Pasted image 20251021220010.png",
+    "Pasted image 20251021215931.png",
+    "Pasted image 20251021215848.png",
+    "Pasted image 20251021215759.png",
+    "index.md",
     "Attachment/Semester-1",
     "Attachment/Semester-3/Alpro 2",
     "Attachment/Semester-3/Algeo",
     "Attachment/Semester-3/OS",
-    "Attachment/pointers.pdf",
-    "Attachment/Semester-3",
-    "Attachment",
     "Untitled.md",
-    "index.md",
     "Latsol dari Buku.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Glosarium.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Latihan Soal dari Buku.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Ruang Vektor Umum.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor di Ruang Euclidean.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/IF2130 Sistem Operasi.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/04-Class-Modeling.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/03b-Scenario-Based-Modeling.pdf",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/System Call.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Struktur Penyimpanan.md",
@@ -231,12 +271,6 @@
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Pendahuluan Sistem Operasi.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Operasi pada Process dan IPC.md",
     "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Operasi OS.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Model Struktur OS.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Layanan OS.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Thread.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Scheduling.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Process.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Interrupt.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Arsitektur Komputer.md"
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Model Struktur OS.md"
   ]
 }
