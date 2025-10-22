@@ -72,3 +72,33 @@ Contoh Jenis Aplikasi Umum:
 - **Web-based Information Systems:** Biasanya diimplementasikan sebagai arsitektur _multi-tier client-server_ (Web Server, Application Server, Database Server).
 
 - **Language Processing Systems:** Menerima bahasa (natural atau artifisial) sebagai input dan menghasilkan representasi lain (misalnya _compiler_, penerjemah perintah).
+
+# UML 2.0
+## Component Diagrams
+Inti dari desain arsitektur modern adalah konsep **Komponen**. Dalam UML 2.0, komponen didefinisikan sebagai unit modular yang otonom, memiliki _interface_ yang terdefinisi dengan baik, dan dapat diganti (_replaceable_) dalam lingkungannya. Komponen menyembunyikan detail internalnya (enkapsulasi). Komponen digambarkan sebagai persegi panjang dengan kata kunci `<<component>>` dan terkadang sebuah ikon komponen standar.
+
+Komponen memiliki beberapa elemen kunci:
+1. **Interface (Antarmuka)**: Ini adalah elemen terpenting yang mendefinisikan sekumpulan operasi. Ada dua jenis utama:
+    - **Provided Interface**: Merepresentasikan layanan yang _ditawarkan_ oleh komponen. Notasinya menggunakan simbol "ball" (atau lolipop).
+        
+    - **Required Interface**: Merepresentasikan layanan yang _dibutuhkan_ oleh komponen dari lingkungannya. Notasinya menggunakan simbol "socket" (atau mangkuk).
+        
+2. **Port**: Ini adalah titik interaksi spesifik (digambarkan sebagai kotak kecil di tepi komponen) yang menghubungkan _interface_ komponen dengan lingkungannya. Port mengisolasi internal komponen dari dunia luar.
+    
+3. **Views (Internal vs. Eksternal)**: Komponen dapat dilihat sebagai **External View** (_black box_), yang hanya menunjukkan _interface_ publiknya, atau sebagai **Internal View** (_white box_), yang menunjukkan kelas atau komponen lain di dalamnya yang merealisasikan perilakunya.
+    
+4. **Konektor (Connector)**: Ada dua jenis konektor utama untuk merakit komponen. **Assembly Connector** adalah koneksi "ball-and-socket" standar yang menghubungkan _provided interface_ satu komponen ke _required interface_ komponen lain. **Delegation Connector** digunakan dalam _internal view_ untuk mendelegasikan panggilan dari port eksternal komponen ke bagian internalnya, yang penting untuk dekomposisi hierarkis.
+
+## Deployment Diagrams
+
+Diagram Deployment terkait erat dengan Diagram Komponen, namun berfokus pada _Physical View_. Diagram ini menunjukkan hubungan fisik antara perangkat keras dan perangkat lunak dalam sistem dan di mana komponen akan berada saat _run-time_.
+
+Elemen utamanya adalah:
+- **Node**: Mewakili sumber daya perangkat keras seperti server, klien, atau perangkat lain. Node digambarkan sebagai boks tiga dimensi.
+    
+- **Artifact**: Mewakili bagian fisik dari informasi, seperti file `.java`, file `.jar`, file eksekutabel, atau tabel database. Notasinya adalah persegi panjang dengan `<<artifact>>` dan ikon halaman.
+    
+- **Manifestation**: Ini adalah hubungan yang menunjukkan bahwa sebuah _artifact_ merupakan implementasi fisik dari sebuah _komponen_. Ini digambarkan sebagai panah putus-putus berlabel `<<manifest>>` dari _artifact_ ke _komponen_.
+
+## Pemetaan dari Data Flow
+Selain pemodelan berbasis komponen, salindia juga menyinggung teknik _structured design_ yang memetakan arsitektur dari Data Flow Diagram (DFD). Proses ini melibatkan identifikasi jenis aliran data dan pemetaannya ke dalam struktur program (seperti _Structured Chart_) menggunakan dua teknik utama: **Transform Mapping** dan **Transaction Mapping**.
