@@ -11,14 +11,11 @@ cssclasses:
 	- [[Rekayasa Kebutuhan]]
 	- [[Penulisan SKPL]]
 
-- ## Scenario-Based Modelling
+- ## Design and Modelling
 	- [[Scenario-Based Modelling]]
-
-- ## Class-Modelling
 	- [[Class Modelling]]
-
-- ## Architecture Design
 	- [[Desain Arsitektur]]
+	- [[Design Concept]]
 
 
 - ## Materi Perkuliahan

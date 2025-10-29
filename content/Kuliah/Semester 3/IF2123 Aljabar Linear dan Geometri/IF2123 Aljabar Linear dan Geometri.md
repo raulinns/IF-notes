@@ -11,6 +11,8 @@ cssclasses:
 	- [[Vektor di Ruang Euclidean]]
 	- [[Ruang Vektor Umum]]
 
+- ## Vektor Eigen
+	- [[Vektor Eigen]]
 
 - ## Materi Perkuliahan
 	- [[Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf|Buku Pengampu]]
