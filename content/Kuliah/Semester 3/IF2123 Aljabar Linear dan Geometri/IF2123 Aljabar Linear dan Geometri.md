@@ -20,7 +20,8 @@ cssclasses:
 	- [[Diagonalisasi]]
 
 - ## Dekomposisi
-	- [[SVD]]
+	- [[SVD 1]]
+	- [[SVD 2]]
 	- [[Dekomposisi LU]]
 	- [[Dekomposisi QR]]
 
