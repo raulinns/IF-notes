@@ -1,45 +1,42 @@
-> Nilai Eigen dan Vektor Eigen adalah nilai dan vektor karakteristik dari matriks kuadrat. Kata "eigen" berasal dari Bahasa Jerman yang berarti "asli" atau "karakteristik".
-
 # Definisi Nilai Eigen dan Vektor Eigen
-Jika  adalah matriks , maka vektor **tidak-nol** $\mathbf{x}$ di $R^n$ disebut **vektor eigen** dari $A$ jika $A\mathbf{x}$ sama dengan perkalian suatu skalar $\lambda$ dengan . Persamaan fundamentalnya adalah:
+Jika  $A$ adalah matriks $n \times n$ , maka vektor **tidak-nol** $\mathbf{x}$ di $R^n$ disebut **vektor eigen** dari $A$ jika $A\mathbf{x}$ sama dengan perkalian suatu skalar $\lambda$ dengan . Persamaan fundamentalnya adalah:
 $$
 A\mathbf{x}=\lambda \mathbf{x}
 $$
 
-Di mana skalar $\lambda$ disebut **nilai eigen** dari $A$, dan $\mathbf{x}$ dinamakan vektor eigen yang berkoresponden dengan $\lambda$.
+Skalar $\lambda$ disebut **nilai eigen** dari $A$, dan $\mathbf{x}$ dinamakan vektor eigen yang berkoresponden dengan $\lambda$.
 
 Secara geometris, operasi $A\mathbf{x} = \lambda \mathbf{x}$ menyebabkan vektor $\mathbf{x}$ menyusut atau memanjang dengan faktor $\lambda$.
 * Arah vektor $\mathbf{x}$ tetap **sama** jika $\lambda$ positif.
 * Arah vektor $\mathbf{x}$ menjadi **berkebalikan** jika $\lambda$ negatif.
 
-#  Menghitung Nilai Eigen dan Vektor Eigen
-Diberikan sebuah matriks $A$ berukuran $n \times n$. Perhitungan didasarkan pada modifikasi persamaan $A\mathbf{x} = \lambda \mathbf{x}$ menjadi sistem persamaan linear homogen:
+# Cara Menghitung Nilai dan Vektor Eigen
+Untuk menemukan nilai eigen dan vektor eigen dari sebuah matriks **A**, kita memanipulasi persamaan dasarnya:
 $$
 \begin{align*}
-A\mathbf{x} &= \lambda \mathbf{x} \\
-IA \mathbf{x} &= \lambda I \mathbf{x} \\
-A \mathbf{x} &=  \lambda I \mathbf{x} \\
-(\lambda I - A) \mathbf{x} &= \mathbf{0}
+A\mathbf{x} &= \lambda\mathbf{x} \\
+\lambda \mathbf{x} - A\mathbf{x} &= 0 \\
+\lambda I \mathbf{x} - I\mathbf{Ax} &= 0 \\
+\lambda I\mathbf{x}- A\mathbf{x} &= 0 \\
+(\lambda I - A)\mathbf{x} &= 0
 \end{align*}
 $$
 
-### 1. Menentukan Nilai Eigen ($\lambda$)
-Agar sistem $(\lambda I - A)\mathbf{x} = \mathbf{0}$ memiliki solusi **tidak-nol** ($\mathbf{x} \ne \mathbf{0}$, yaitu vektor eigen), maka matriks koefisien haruslah singular, yang berarti determinannya harus nol.
+Ini adalah sebuah sistem persamaan linear homogen. Agar sistem ini memiliki solusi $\mathbf{x}$ yang tidak-nol (sesuai definisi vektor eigen), matriks koefisien $(\lambda\mathbf{I} - \mathbf{A})$ haruslah singular, yang berarti determinannya harus nol. Persamaan ini disebut persamaan karakteristik.
 
-Persamaan $\text{det}(\lambda I - A) = 0$ disebut **persamaan karakteristik** dari matriks $A$. Akar-akar dari persamaan polinomial ini, yaitu $\lambda$, dinamakan **nilai-nilai eigen**.
+$$
+\det(\lambda\mathbf{I} - \mathbf{A}) = 0
+$$
 
->  Perhatian: Tidak semua matriks memiliki nilai eigen. [cite_start]Matriks $A$ tidak memiliki nilai eigen jika persamaan karakteristiknya menghasilkan akar-akar imajiner (misalnya $\lambda^2 + 1 = 0$)[cite: 143, 149, 150].
+>  Perhatian: Tidak semua matriks memiliki nilai eigen. 0Matriks $A$ tidak memiliki nilai eigen jika persamaan karakteristiknya menghasilkan akar-akar imajiner (misalnya $\lambda^2 + 1 = 0$).
 
-### 2. Menentukan Vektor Eigen dan Ruang Eigen
-Setelah nilai eigen $\lambda$ ditemukan, nilai tersebut disubstitusikan kembali ke dalam persamaan $(\lambda I - A)\mathbf{x} = \mathbf{0}$. Penyelesaian sistem ini akan menghasilkan vektor solusi $\mathbf{x}$.
+Setelah menemukan nilai-nilai eigen ($\lambda$), kita dapat menemukan vektor-vektor eigen yang bersesuaian dengan mensubstitusi nilai eigen dalam persamaan  $\lambda I - A = 0$ dan menyelesaikan persamaannya (dicari solusinya, misal menggunakan metode Gauss).
 
-* **Vektor Eigen:** Vektor $\mathbf{x}$ yang tidak-nol hasil solusi.
-* **Ruang Eigen (Eigenspace)**: Himpunan semua vektor eigen yang berkoresponden dengan nilai $\lambda$ tertentu, ditulis sebagai $E(\lambda)$.
-* **Basis Ruang Eigen**: Vektor-vektor bebas linear yang membangun ruang eigen $E(\lambda)$. Untuk menentukan vektor eigen yang spesifik, harus ditentukan terlebih dahulu basis ruang eigennya.
+Himpunan semua solusi dari sistem homogen ini (termasuk vektor nol) adalah sebuah subruang dari $R^n$, yang disebut **ruang eigen** (eigenspace) dari **A** yang bersesuaian dengan $\lambda$.
 
 ## Aplikasi Nilai Eigen dan Vektor Eigen
 Konsep ini memiliki berbagai aplikasi di berbagai bidang:
 * **Grafika komputer** dan *computer vision*.
 * **Fisika** (getaran mekanis, aliran panas, mekanika kuantum).
 * **Biologi** (dinamika populasi).
-* **Sistem pendukung keputusan** dan **Ekonomi**.
+* **Sistem pendukung keputusan** dan **Ekonomi**.gg

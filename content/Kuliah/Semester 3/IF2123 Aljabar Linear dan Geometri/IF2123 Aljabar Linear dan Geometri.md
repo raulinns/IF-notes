@@ -11,8 +11,18 @@ cssclasses:
 	- [[Vektor di Ruang Euclidean]]
 	- [[Ruang Vektor Umum]]
 
+- ## Persiapan UTS
+	- [[Glosarium]]
+	- [[Latihan Soal dari Buku]]
+
 - ## Vektor Eigen
 	- [[Vektor Eigen]]
+	- [[Diagonalisasi]]
+
+- ## Dekomposisi
+	- [[SVD]]
+	- [[Dekomposisi LU]]
+	- [[Dekomposisi QR]]
 
 - ## Materi Perkuliahan
 	- [[Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf|Buku Pengampu]]
@@ -35,3 +45,10 @@ cssclasses:
 	- [[16-Ruang-vektor-umum-Bagian2-2025.pdf]]
 	- [[17-Ruang-vektor-umum-Bagian3-2025.pdf]]
 	- [[18-Ruang-vektor-umum-Bagian4-2025.pdf]]
+	- [[19-Nilai-Eigen-dan-Vektor-Eigen.pdf]]
+	- [[20-Nilai-Eigen-dan-Vektor-Eigen.pdf]]
+	- [[21-Singular-value-decomposition-Bagian1-2025.pdf]]
+	- [[22-Singular-value-decomposition-Bagian2-2025.pdf]]
+	- [[23-Dekomposisi-LU-2025.pdf]]
+	- [[24-Dekomposisi-QR-2025.pdf]]
+	- [[25-Aljabar-Kompleks-2025.pdf]]
