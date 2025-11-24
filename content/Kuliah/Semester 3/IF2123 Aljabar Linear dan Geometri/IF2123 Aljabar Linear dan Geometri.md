@@ -25,6 +25,10 @@ cssclasses:
 	- [[Dekomposisi LU]]
 	- [[Dekomposisi QR]]
 
+- ## Aljabar Kompleks
+	- [[Aljabar Kompleks]]
+	- [[Aljabar Quaternion]]
+
 - ## Materi Perkuliahan
 	- [[Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf|Buku Pengampu]]
 	- [[00-Pengantar-Aljabar-Geometri.pdf]]
@@ -53,3 +57,5 @@ cssclasses:
 	- [[23-Dekomposisi-LU-2025.pdf]]
 	- [[24-Dekomposisi-QR-2025.pdf]]
 	- [[25-Aljabar-Kompleks-2025.pdf]]
+	- [[26-Aljabar-Quaternion-Bagian1-2025.pdf]]
+	- [[27-Aljabar-Quaternion-Bagian2-2025.pdf]]
