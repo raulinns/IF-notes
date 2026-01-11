@@ -13,102 +13,6 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/08-Component-Level-Diagram.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "08-Component-Level-Diagram"
-            }
-          },
-          {
-            "id": "e368e886074207e8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/07-Design-Concept.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "07-Design-Concept"
-            }
-          },
-          {
-            "id": "26bf802cdc0174ee",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/09-Interface-Design.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "09-Interface-Design"
-            }
-          },
-          {
-            "id": "167e148362169409",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/10-Evaluasi-Hasil-Perancangan.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "10-Evaluasi-Hasil-Perancangan"
-            }
-          },
-          {
-            "id": "17d87d6a77af21db",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11a-Software-Quality.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "11a-Software-Quality"
-            }
-          },
-          {
-            "id": "a1b898b800fb0fe1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11b-Software-Testing.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "11b-Software-Testing"
-            }
-          },
-          {
-            "id": "a33cc84e18540548",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12a-SCM.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "12a-SCM"
-            }
-          },
-          {
-            "id": "f4d7373b96d5c80f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12b-VCS.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "12b-VCS"
-            }
-          },
-          {
-            "id": "e046e062aa185afc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
                 "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/13-Agile.pdf"
               },
               "icon": "lucide-file-text",
@@ -116,43 +20,21 @@
             }
           },
           {
-            "id": "bb739bc29c12f3dc",
+            "id": "b5a82856d8c73a3d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14a-Domain-Spesific-SW.pdf"
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "14a-Domain-Spesific-SW"
-            }
-          },
-          {
-            "id": "23bcdd8460756878",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14b-Software-Product-Line.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "14b-Software-Product-Line"
-            }
-          },
-          {
-            "id": "47549c64fb8c07e0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14c-Domain-Spesific-Language.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "14c-Domain-Spesific-Language"
+              "icon": "lucide-file",
+              "title": "IF2150 Rekayasa Perangkat Lunak"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -321,44 +203,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bb739bc29c12f3dc",
+  "active": "b5a82856d8c73a3d",
   "lastOpenFiles": [
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14c-Domain-Spesific-Language.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14b-Software-Product-Line.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14a-Domain-Spesific-SW.pdf",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/13-Agile.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12a-SCM.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11b-Software-Testing.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11a-Software-Quality.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12b-VCS.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/10-Evaluasi-Hasil-Perancangan.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/07-Design-Concept.pdf",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/09-Interface-Design.pdf",
     "index.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi QR.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/SVD 1.md",
-    "Untitled 1.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/IF2130 Sistem Operasi.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Scenario-Based Modelling.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Kebutuhan Perangkat Lunak.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Desain Arsitektur.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Class Modelling.md",
-    "Untitled.md",
-    "Untitled 2.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi LU.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Diagonalisasi.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor di Ruang Euclidean.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Rekayasa Kebutuhan.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Penulisan SKPL.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Pendahuluan RPL.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Model Proses.md",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/System Call.md",
     "Attachment/Semester-3/RPL/Pasted image 20251022052858.png",
     "Attachment/Semester-3/RPL/Pasted image 20251022052844.png",
     "Attachment/Semester-3/RPL/Pasted image 20251022052424.png",
@@ -368,6 +216,40 @@
     "Attachment/Semester-3/RPL/Pasted image 20251022041200.png",
     "Attachment/Semester-3/RPL/Pasted image 20251022041144.png",
     "Attachment/Semester-3/RPL/Pasted image 20251022040941.png",
-    "Attachment/Semester-3/RPL/Pasted image 20251022040931.png"
+    "Attachment/Semester-3/RPL/Pasted image 20251022040931.png",
+    "Attachment/Semester-3/RPL",
+    "Attachment/Semester-3/OS",
+    "Attachment/Semester-3/Alpro 2",
+    "Attachment/Semester-3/Algeo",
+    "Attachment/Semester-3",
+    "Attachment/pointers.pdf",
+    "Attachment/Semester-1",
+    "Attachment",
+    "Perpustakaan/IT/Linier Algebra/Tensor.pdf",
+    "Perpustakaan/IT/Linier Algebra/Gatys_Image_Style_Transfer_CVPR_2016_paper (1).pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Scenario-Based Modelling.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Rekayasa Kebutuhan.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Penulisan SKPL.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Pendahuluan RPL.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Model Proses.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Kebutuhan Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Desain Arsitektur.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Class Modelling.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/System Call.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Struktur Penyimpanan.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Struktur IO.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Resource Management.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Process Scheduling.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Pendahuluan Sistem Operasi.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Operasi pada Process dan IPC.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Operasi OS.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Model Struktur OS.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Layanan OS.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Thread.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Scheduling.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Konsep Process.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Interrupt.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/Arsitektur Komputer.md"
   ]
 }
