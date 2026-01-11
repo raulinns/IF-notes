@@ -4,120 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "16082696589cc1f4",
+        "id": "6d2a3a7db83387c2",
         "type": "tabs",
         "children": [
           {
-            "id": "d37ec1361565c3a3",
+            "id": "1490509a72e4be19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Dekomposisi QR.md",
-                "mode": "source",
-                "source": false
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/08-Component-Level-Diagram.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Dekomposisi QR"
+              "icon": "lucide-file-text",
+              "title": "08-Component-Level-Diagram"
             }
           },
           {
-            "id": "ffe2e633ae834167",
+            "id": "e368e886074207e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi LU.md",
-                "mode": "preview",
-                "source": false
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/07-Design-Concept.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Dekomposisi LU"
+              "icon": "lucide-file-text",
+              "title": "07-Design-Concept"
             }
           },
           {
-            "id": "4f0188fe1b69dca2",
+            "id": "26bf802cdc0174ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/SVD 1.md",
-                "mode": "source",
-                "source": false
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/09-Interface-Design.pdf"
               },
-              "icon": "lucide-file",
-              "title": "SVD 1"
+              "icon": "lucide-file-text",
+              "title": "09-Interface-Design"
             }
           },
           {
-            "id": "afee2412fb4e8434",
+            "id": "167e148362169409",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Diagonalisasi.md",
-                "mode": "source",
-                "source": false
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/10-Evaluasi-Hasil-Perancangan.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Diagonalisasi"
+              "icon": "lucide-file-text",
+              "title": "10-Evaluasi-Hasil-Perancangan"
+            }
+          },
+          {
+            "id": "17d87d6a77af21db",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11a-Software-Quality.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "11a-Software-Quality"
+            }
+          },
+          {
+            "id": "a1b898b800fb0fe1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11b-Software-Testing.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "11b-Software-Testing"
+            }
+          },
+          {
+            "id": "a33cc84e18540548",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12a-SCM.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "12a-SCM"
+            }
+          },
+          {
+            "id": "f4d7373b96d5c80f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12b-VCS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "12b-VCS"
+            }
+          },
+          {
+            "id": "e046e062aa185afc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/13-Agile.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "13-Agile"
+            }
+          },
+          {
+            "id": "bb739bc29c12f3dc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14a-Domain-Spesific-SW.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "14a-Domain-Spesific-SW"
+            }
+          },
+          {
+            "id": "23bcdd8460756878",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14b-Software-Product-Line.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "14b-Software-Product-Line"
+            }
+          },
+          {
+            "id": "47549c64fb8c07e0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14c-Domain-Spesific-Language.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "14c-Domain-Spesific-Language"
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "f406c6916cca6f91",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "094d9ba70c20bb9b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/21-Singular-value-decomposition-Bagian1-2025.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "21-Singular-value-decomposition-Bagian1-2025"
-            }
-          },
-          {
-            "id": "017be10f3920bf3c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/19-Nilai-Eigen-dan-Vektor-Eigen.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "19-Nilai-Eigen-dan-Vektor-Eigen"
-            }
-          },
-          {
-            "id": "c55f44a851d64229",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version"
-            }
-          },
-          {
-            "id": "91dba403d2864f26",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -286,52 +321,53 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "017be10f3920bf3c",
+  "active": "bb739bc29c12f3dc",
   "lastOpenFiles": [
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/21-Singular-value-decomposition-Bagian1-2025.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/Howard-Anton-Chris-Rorres-Elementary-Linear-Algebra-10th-Version.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14c-Domain-Spesific-Language.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14b-Software-Product-Line.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/14a-Domain-Spesific-SW.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/13-Agile.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12a-SCM.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11b-Software-Testing.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/11a-Software-Quality.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/12b-VCS.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/10-Evaluasi-Hasil-Perancangan.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/07-Design-Concept.pdf",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Materi/09-Interface-Design.pdf",
     "index.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/22-Singular-value-decomposition-Bagian2-2025.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/24-Dekomposisi-QR-2025.pdf",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi QR.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/SVD 1.md",
-    "Dekomposisi QR.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi LU.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Diagonalisasi.md",
     "Untitled 1.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/IF2130 Sistem Operasi.md",
     "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/IF2123 Aljabar Linear dan Geometri.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/23-Dekomposisi-LU-2025.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/20-Nilai-Eigen-dan-Vektor-Eigen.pdf",
-    "Kuliah/Semester 3/IF2130 Sistem Operasi/Materi/Operating-System-Concepts.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/27-Aljabar-Quaternion-Bagian2-2025.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Materi/26-Aljabar-Quaternion-Bagian1-2025.pdf",
-    "Untitled.md",
-    "Kuliah/Semester 3/IF2110 Algoritma dan Pemrograman 2/Materi/12a-Binary-Tree.pdf",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor Eigen.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/SVD 2.md",
-    "Attachment/Semester-3/Pasted image 20251113051634.png",
-    "Attachment/Semester-3/Pasted image 20251113051459.png",
-    "SVD.md",
-    "SVD 1.md",
-    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Glosarium.md",
-    "Attachment/Semester-1/image.png",
-    "Attachment/Semester-1/image 9.png",
-    "Attachment/Semester-1/image 9 6.png",
-    "Attachment/Semester-1/image 9 5.png",
-    "Attachment/Semester-1/image 9 4.png",
-    "Attachment/Semester-1/image 9 3.png",
-    "Attachment/Semester-1/image 9 2.png",
-    "Attachment/Semester-1/image 8.png",
-    "Projek/Web Development/Web Development.md",
-    "Projek/Web Development/Introduction to Web.md",
-    "Projek/C Language/Tipe Pointer dan Array.md",
-    "Projek/C Language/Pointer dan String.md",
-    "Projek/C Language/C Language.md",
-    "Projek/C Language/Apa itu Pointer?.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Scenario-Based Modelling.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Kebutuhan Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Desain Arsitektur.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/IF2150 Rekayasa Perangkat Lunak.md",
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Class Modelling.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Dekomposisi LU.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Sistem Persamaan Linear.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Determinan.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Matriks.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Diagonalisasi.md",
+    "Kuliah/Semester 3/IF2123 Aljabar Linear dan Geometri/Catatan/Vektor di Ruang Euclidean.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Rekayasa Kebutuhan.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Perangkat Lunak.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Penulisan SKPL.md",
     "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Pendahuluan RPL.md",
-    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Model Proses.md"
+    "Kuliah/Semester 3/IF2150 Rekayasa Perangkat Lunak/Catatan/Model Proses.md",
+    "Kuliah/Semester 3/IF2130 Sistem Operasi/Catatan/System Call.md",
+    "Attachment/Semester-3/RPL/Pasted image 20251022052858.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022052844.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022052424.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022044354.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022043919.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022041211.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022041200.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022041144.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022040941.png",
+    "Attachment/Semester-3/RPL/Pasted image 20251022040931.png"
   ]
 }
