@@ -1,0 +1,81 @@
+/* --- MAC STYLE CODE BLOCKS (SHIKI QUARTZ) --- */
+
+/* Container Utama */
+pre.shiki {
+    background-color: #1d1e22 !important; /* Warna BG Code Editor Gelap */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    
+    /* Layout */
+    position: relative;
+    padding: 45px 20px 20px 20px !important; /* Padding Top besar untuk Header Bar */
+    margin: 1.5rem 0;
+    overflow-x: auto; /* Scroll horizontal jika code panjang */
+}
+
+/* Header Bar Palsu (Bagian atas) */
+pre.shiki::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Lebar penuh */
+    height: 35px; /* Tinggi header bar */
+    background-color: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: block;
+    z-index: 10;
+    pointer-events: none; /* Agar bisa klik tombol copy di bawahnya jika tertumpuk */
+}
+
+/* Label Bahasa (JAVASCRIPT, CSS, dll) */
+pre.shiki code[data-lang]::after {
+    content: attr(data-lang);
+    position: absolute;
+    top: -30px; /* Tarik ke atas masuk ke header bar */
+    left: 15px; /* Jarak dari kiri */
+    z-index: 20;
+    
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    color: #5c6370; /* Warna teks label abu tua */
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+}
+
+/* Styling Text Kode di dalam */
+pre.shiki code {
+    background: transparent !important; /* Hapus bg bawaan shiki */
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Tombol Copy Bawaan Quartz */
+/* Kita geser posisinya agar pas di header bar */
+.clipboard-button {
+    top: 6px !important;
+    right: 10px !important;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    z-index: 50; /* Pastikan di paling atas */
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.clipboard-button:hover {
+    opacity: 1;
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Override Manual Label Bahasa (Agar rapi) */
+pre.shiki code[data-lang="js"]::after { content: "JAVASCRIPT"; }
+pre.shiki code[data-lang="ts"]::after { content: "TYPESCRIPT"; }
+pre.shiki code[data-lang="css"]::after { content: "CSS"; }
+pre.shiki code[data-lang="html"]::after { content: "HTML"; }
+pre.shiki code[data-lang="py"]::after { content: "PYTHON"; }

@@ -1,0 +1,23 @@
+/* --- LINK STYLING --- */
+
+/* Base Link Style (Internal & External) */
+a.internal, 
+a.external {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  color: var(--text-normal); /* Menggunakan warna text normal/tertiary Quartz */
+  text-decoration-color: var(--secondary); /* Warna aksen */
+  text-decoration-skip-ink: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* Hover Effect */
+a.internal:hover,
+a.external:hover {
+  text-decoration: none;
+  color: var(--secondary);
+  background-color: rgba(var(--secondary-rgb), 0.1); /* Efek highlight halus */
+  border-radius: 4px;
+  padding: 0 2px;
+}

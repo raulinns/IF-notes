@@ -1,0 +1,87 @@
+/* --- OUTLINED CALLOUTS --- */
+/* Mengubah Callout standar Quartz menjadi gaya Outline Transparan */
+
+blockquote.callout {
+    background-color: transparent !important;
+    border: 1px solid var(--secondary);
+    border-left: 1px solid var(--secondary) !important; /* Override border kiri tebal bawaan Quartz */
+    border-radius: 8px;
+    box-shadow: none;
+    overflow: visible; /* Penting agar judul bisa naik ke atas border */
+    margin: 1rem 0;
+    padding: 0 !important; /* Reset padding container utama agar tidak ada jarak gaib */
+}
+
+/* Header Callout (Judul) */
+blockquote.callout .callout-title {
+    background-color: var(--light); /* Warna background halaman */
+    color: var(--secondary);
+    width: fit-content;
+    padding: 0 0.5rem;
+    margin-top: -2.3rem; /* Tarik judul ke atas garis border */
+    margin-left: 0.5rem;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+/* Isi Callout */
+blockquote.callout .callout-content {
+    /* Berikan padding kiri/kanan/bawah agar teks tidak mepet garis */
+    padding: 0.5rem 1rem 1rem 1rem !important;
+    /* Pastikan padding atas kecil/nol karena judul sudah naik */
+    padding-top: 0 !important; 
+}
+
+/* Hapus margin atas pada elemen pertama di dalam konten (biasanya paragraf) */
+/* Ini adalah KUNCI untuk menghilangkan gap besar */
+blockquote.callout .callout-content > :first-child {
+    margin-top: 0 !important;
+}
+
+/* --- SIDENOTES (Epic Callout) --- */
+/* Catatan samping yang melayang di sebelah kanan.
+   Hanya aktif jika layar cukup lebar.
+   
+   Rumus Breakpoint: Lebar Konten (1000px) + Lebar Sidenote (250px) + Jarak (50px) + Padding Kiri-Kanan Browser
+   Jadi minimal sekitar 1350px atau 1400px agar aman tidak terpotong.
+*/
+@media (min-width: 1200px) {
+    blockquote.callout[data-callout="epic"] {
+        position: absolute;
+        width: 250px; /* Lebar sidenote */
+        right: calc(-250px - 2rem); /* Geser ke kanan luar konten */
+        margin-top: 0;
+        font-size: 0.85rem;
+        border: 1px solid var(--tertiary); /* Warna Pink (sub-accent) */
+        opacity: 0.8;
+        z-index: 100;
+        background-color: var(--light) !important; /* Pastikan background tidak transparan agar tulisan belakang tertutup jika overlap */
+    }
+    
+    blockquote.callout[data-callout="epic"] .callout-title {
+        background-color: var(--light);
+        color: var(--tertiary);
+        margin-top: -2rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Hover effect agar fokus saat dibaca */
+    blockquote.callout[data-callout="epic"]:hover {
+        opacity: 1;
+        border-color: var(--secondary);
+        z-index: 101;
+    }
+}
+
+/* Fallback untuk layar kecil (Mobile/Tablet) */
+/* Sidenote akan tampil seperti callout biasa di bawah paragraf */
+@media (max-width: 1399px) {
+    blockquote.callout[data-callout="epic"] {
+        position: relative;
+        right: auto;
+        width: 100%;
+        margin-top: 1rem;
+        border-color: var(--tertiary);
+    }
+}

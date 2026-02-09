@@ -1,3 +1,91 @@
-@use "./base.scss";
+@use "./base";
+@use "./variables";
+@use "./dashboard";
+@use "./codeblock";
+@use "./headings";
+@use "./links";
+@use "./callouts";
 
-// put your custom CSS here!
+/* --- 3. KONFIGURASI TEMA OBSIDIANITE --- */
+:root {
+  /* Palet Warna Asli dari theme.css Obsidian Anda */
+  --obs-bg-primary: #100e17;       /* Background Halaman */
+  --obs-bg-secondary: #191621;     /* Background Kartu */
+  --obs-text-normal: #bebebe;      /* Warna Teks Utama */
+  --obs-text-muted: #6272a4;       /* Warna Komentar/Redup */
+  --obs-accent: #0fb6d6;           /* Cyan (Link & Highlight) */
+  --obs-sub-accent: #f4569d;       /* Pink */
+  
+  --obs-border: rgba(14, 210, 247, 0.1); /* Border halus cyan */
+  --obs-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Mapping ke Variabel Quartz & Obsidian Compatibility */
+:root[saved-theme="dark"] {
+    /* --- Variabel Standar Quartz --- */
+    --light: var(--obs-bg-primary);
+    --lightgray: var(--obs-bg-secondary);
+    --gray: var(--obs-text-muted);
+    --darkgray: var(--obs-text-normal);
+    --dark: #cbdbe5; /* Warna Judul H1/H2 */
+    
+    --secondary: var(--obs-accent);
+    --tertiary: var(--obs-sub-accent);
+    
+    --highlight: rgba(14, 210, 247, 0.15);
+    --textHighlight: #f1fa8c;
+
+    /* --- COMPATIBILITY: Variabel Asli Obsidian --- */
+    /* Bagian ini PENTING agar snippet asli Obsidian terbaca dengan benar */
+    --background-primary: var(--obs-bg-primary);
+    --background-secondary: var(--obs-bg-secondary);
+    --background-modifier-border: var(--obs-border);
+    --text-normal: var(--obs-text-normal);
+    --text-muted: var(--obs-text-muted);
+    --text-accent: var(--obs-accent);
+    --interactive-accent: var(--obs-accent);
+    
+    /* Font variable yang sering dipakai snippet */
+    --font-monospace: 'JetBrains Mono', monospace;
+}
+
+/* Fallback untuk Light Mode (Dipaksa Dark ala Obsidianite) */
+:root[saved-theme="light"] {
+    --light: var(--obs-bg-primary);
+    --lightgray: var(--obs-bg-secondary);
+    --gray: var(--obs-text-muted);
+    --darkgray: var(--obs-text-normal);
+    --dark: #cbdbe5;
+    
+    --secondary: var(--obs-accent);
+    --tertiary: var(--obs-sub-accent);
+    
+    --highlight: rgba(14, 210, 247, 0.15);
+    --textHighlight: #f1fa8c;
+
+    /* Compatibility untuk Light Mode juga */
+    --background-primary: var(--obs-bg-primary);
+    --background-secondary: var(--obs-bg-secondary);
+    --background-modifier-border: var(--obs-border);
+    --text-normal: var(--obs-text-normal);
+    --text-muted: var(--obs-text-muted);
+    --font-monospace: 'JetBrains Mono', monospace;
+}
+
+/* --- 4. GLOBAL STYLES --- */
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--light);
+    color: var(--darkgray);
+}
+
+code, pre, .code-block {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Mengubah lebar maksimal konten utama menjadi 1000px */
+.page, 
+.center,
+article.content {
+    max-width: 2000px !important;
+}

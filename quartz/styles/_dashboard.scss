@@ -1,0 +1,202 @@
+/* --- 1. CONTAINER & LAYOUT --- */
+
+/* Memaksa area dashboard melebar (Bypass Readable Line Length) */
+.dashboard .markdown-preview-section,
+.dashboard .markdown-source-view .cm-content {
+    max-width: 1200px !important; /* Gunakan seluruh lebar layar */
+    width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Grid System Utama */
+.dashboard ul {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr; /* 2 Kolom proporsional */
+    gap: 30px; /* Jarak antar card diperlebar agar tidak sesak */
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+/* --- 2. CARD STYLE (KOTAK LUAR) --- */
+.dashboard ul > li {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-top: 6px solid #5c7cfa; /* Border biru lebih tebal */
+    border-radius: 12px; /* Sudut lebih membulat */
+    padding: 5px 30px; /* Padding dalam diperbesar supaya lega */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    
+    /* Reset text alignment & spacing */
+    text-align: left !important;
+    margin-top: 0px !important;
+    margin-bottom: 0 !important;
+    height: 100%; /* Agar tinggi card seragam */
+}
+
+/* --- HOVER EFFECT (HANYA NAIK) --- */
+.dashboard ul > li:hover {
+    /* 1. Efek Fisik: Naik 4px & Bayangan menebal */
+    transform: translateY(-4px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+    /* 2. MENCEGAH PERUBAHAN WARNA (Reset ke default) */
+    background-color: var(--background-secondary) !important; /* Paksa warna background tetap */
+    
+    /* Pastikan border samping/bawah tetap abu-abu (tidak berubah jadi warna aksen) */
+    border-right: 1px solid var(--background-modifier-border) !important;
+    border-bottom: 1px solid var(--background-modifier-border) !important;
+    border-left: 1px solid var(--background-modifier-border) !important;
+}
+
+/* --- 3. TYPOGRAPHY HEADER & DESKRIPSI --- */
+.dashboard ul > li > h2 {
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 0px;
+    border-bottom: 0px solid var(--background-modifier-border) !important;
+    font-size: 1.5em !important;
+    font-weight: 700;
+}
+
+.dashboard ul > li > p {
+    color: var(--text-muted);
+    font-size: 0.95em;
+    font-style: italic;
+    margin-bottom: 15px !important;
+    line-height: 1.4;
+}
+
+/* --- 4. INNER LIST (DAFTAR MATA KULIAH) --- */
+/* Ini yang memperbaiki tampilan list mata kuliah yang berantakan */
+.dashboard ul > li > ul {
+    display: flex !important; /* Menggunakan flex column agar rapi */
+    flex-direction: column;
+    gap: 6px; /* Jarak antar mata kuliah yang konsisten */
+    
+    /* Reset style list */
+    list-style: none !important; 
+    padding-left: 10px !important;
+    margin: 0 !important;
+}
+
+.dashboard ul > li > ul > li {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    
+    /* Membuat custom bullet atau styling baris */
+    position: relative;
+    padding-left: 0px !important; /* Ruang untuk bullet custom */
+    font-size: 1em; /* Font sedikit lebih besar */
+    line-height: 1.5;
+}
+
+/* Custom Bullet Point (Titik kecil abu-abu) */
+.dashboard ul > li > ul > li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+    font-weight: bold;
+}
+
+/* --- 5. LOGIKA SEMESTER 5 (Full Width) --- */
+.dashboard ul > li:last-child:nth-child(odd) {
+    grid-column: span 2;
+}
+
+/* --- 6. RESPONSIVE (HP) --- */
+@media (max-width: 768px) {
+    .dashboard ul {
+        grid-template-columns: 1fr !important; /* 1 Kolom di HP */
+        gap: 20px;
+    }
+    .dashboard ul > li:last-child:nth-child(odd) {
+        grid-column: span 1;
+    }
+    .dashboard .markdown-preview-section {
+        padding: 10px !important; /* Kurangi padding layar di HP */
+    }
+}
+
+/* --- HAPUS DOT/BULLET PADA HEADER SAJA (REVISI) --- */
+
+/* 1. Hapus Bullet Fisik (span) HANYA pada level Card (Header) */
+/* Tanda '>' artinya: Cuma target bullet yang nempel langsung di Card.
+   Bullet di dalam sub-list (mata kuliah) AMAN tidak akan hilang. */
+.dashboard ul > li > .list-bullet {
+    display: none !important;
+}
+
+/* 2. Hapus panah collapse (segitiga) HANYA pada level Card */
+.dashboard ul > li > .list-collapse-indicator {
+    display: none !important;
+}
+
+/* 3. Pastikan Card Utama tidak punya marker bawaan tema */
+.dashboard ul > li {
+    list-style-type: none !important;
+}
+
+.dashboard ul > li::before,
+.dashboard ul > li::marker {
+    content: none !important;
+    display: none !important;
+}
+
+.dashboard ul > li > ul > li {
+    display: flex !important;      /* Aktifkan mode Flexbox */
+    align-items: center !important; /* KUNCI: Paksa vertikal ke tengah (Center) */
+    /* align-items: baseline !important; <--- Coba ini jika 'center' terasa aneh */
+    
+    justify-content: flex-start !important;
+    gap: 20px !important; /* Jarak pasti antara titik dan teks */
+    
+    /* Reset style bawaan */
+    list-style-type: none !important;
+    margin-bottom: 4px !important; /* Jarak antar baris mata kuliah */
+    line-height: 1.4 !important;
+}
+
+/* Target elemen titik/bullet */
+.dashboard ul > li > ul > li > .list-bullet {
+    display: inline-flex !important; /* Pastikan bullet bersifat fleksibel */
+    align-items: center !important;
+    justify-content: center !important;
+    
+    /* Reset margin agar tidak ada jarak gaib */
+    margin: 0 !important;
+    padding: 0 !important;
+    
+    /* (Opsional) Tweak posisi manual jika masih kurang pas pixel-nya */
+    /* transform: translateY(1px); */ 
+}
+
+/* Pastikan teks di dalam list tidak memiliki margin yang mengganggu */
+.dashboard ul > li > ul > li > p {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
+}
+
+/* --- HAPUS GARIS PUTIH (INDENTATION GUIDE) --- */
+
+/* Target list mata kuliah (nested ul) */
+.dashboard ul > li > ul {
+    /* Menghilangkan garis border kiri */
+    border-left: none !important;
+    border-inline-start: none !important;
+    
+    /* (Opsional) Jika ingin list lebih mepet ke kiri setelah garis hilang */
+}
+
+/* Opsi Tambahan: Hapus border pada container preview jika tema memakainya */
+.dashboard .markdown-preview-view ul > li > ul {
+    border-left: none !important;
+    padding-left: 0 !important; /* Reset padding agar rapi */
+}
+
