@@ -33,6 +33,10 @@ Selamat belajar, berbuat salah, dan semangat untuk kuis/ujian-nya! Semoga berman
 	- [[KU4078 Studium Generale]]
 	- [[WI2022 Manajemen Projek]]
 
+- ## Project & Others
+	- [[C Language]]
+	- [[Web Development]]
+
 - ## Resource Terdahulu
 	- [[Resource Jurusan IF-STI]]
 	- [[Resource TPB]]
