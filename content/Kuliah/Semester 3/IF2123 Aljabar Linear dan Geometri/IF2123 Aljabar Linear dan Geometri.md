@@ -59,3 +59,8 @@ cssclasses:
 	- [[25-Aljabar-Kompleks-2025.pdf]]
 	- [[26-Aljabar-Quaternion-Bagian1-2025.pdf]]
 	- [[27-Aljabar-Quaternion-Bagian2-2025.pdf]]
+	- [[28-Aljabar-Geometri-Bagian1-2025.pdf]]
+	- [[29-Aljabar-Geometri-Bagian2-2025.pdf]]
+	- [[30-Perkalian-Geometri-Bagian1-2025.pdf]]
+	- [[31-Perkalian-Geometri-Bagian2-2025.pdf]]
+	- [[32-Pembahasan-Soal-Aljabar-dan-Perkalian-Geometri.pdf]]

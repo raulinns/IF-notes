@@ -27,10 +27,6 @@ cssclasses:
 	- [[Konsep Scheduling]]
 	- [[Algoritma Scheduling]]
 	- [[Algoritma Tingkat Lanjut Scheduling]]
-	- [[]]
-
-- ## Deadlock
-	- 
 
 - ## Materi
 	- - [[Operating-System-Concepts.pdf]]
