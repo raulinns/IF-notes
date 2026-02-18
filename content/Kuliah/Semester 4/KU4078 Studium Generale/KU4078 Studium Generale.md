@@ -2,8 +2,8 @@
 cssclasses:
   - dashboard
 ---
-- ## SG
-	- - 
+- ## Draft Catatan
+	- [[SG W1 Notes Draft]]
 
-- ## Materi
-	- - 
+- ## Resume 
+	- [[Resume_SG_11022026_13524044]]

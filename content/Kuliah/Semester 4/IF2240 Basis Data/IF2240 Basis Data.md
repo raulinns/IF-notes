@@ -6,7 +6,7 @@ cssclasses:
 	- [[Introduction to Database]]
 	- [[Database Approach]]
 	- [[Data Model]]
-a
+
 - ## Materi
 	- [[Database-System-Concepts-Silberschatz, Korth, Sudarshan. McGraw-Hill-Education-2019.pdf|Buku Pengampu]]
 	- [[01-Introduction-to-Database.pdf]]

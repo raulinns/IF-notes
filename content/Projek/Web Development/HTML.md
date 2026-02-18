@@ -1,4 +1,4 @@
-**HTML** atau *hypertext markup language* merupakan bahasa yang tersusun dari tag dan dapat memiliki atribut yang mendeskripsikan tag tersebut. Tag akan tersusun dari komponen sebagai berikut.
+`**HTML** atau *hypertext markup language* merupakan bahasa yang tersusun dari tag dan dapat memiliki atribut yang mendeskripsikan tag tersebut. Tag akan tersusun dari komponen sebagai berikut.
 ``` html
 <tagname> { KONTEN DARI TAG } </tagname>
 ```
@@ -7,7 +7,7 @@ Dokumen HTML harus dimulai dengan deklarasi tipe dokumen `<!DOCTYPE html>`, lalu
 
 Indentasi tidak diperlukan dalam HTML, karena *whitespace* dan indentasi tidak dibaca oleh HTML. Namun, penggunaan indentasi akan membantu menunjukkan hierarki dalam dokumen HTML. 
 
-*Web browser* akan membaca file HTML dari atas ke bawah dan kiri ke kanan. Hierarki dari sebuah HTML direpresentasikan dalam struktur *tree*. 
+*Web browser* akan membaca file HTML dari atas ke bawah dan kiri ke kanan. Hierarki dari sebuah HTML direpresentasikan dalam struktur *tree* yang disebut **DOM** atau *Document Object Model*. 
 
 ```html
 <!DOCTYPE html>

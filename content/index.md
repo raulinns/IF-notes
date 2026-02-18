@@ -25,7 +25,7 @@ Selamat belajar, berbuat salah, dan semangat untuk kuis/ujian-nya! Semoga berman
 	- [[IF2150 Rekayasa Perangkat Lunak]]
 
 - ## Semester 4
-	- [[IF2011 Pemrograman Berorientasi Objek]]
+	- [[IF2010 Pemrograman Berorientasi Objek]]
 	- [[IF2221 Strategi Algoritma]]
 	- [[IF2224 Teori Bahasa Formal dan Otomata]]
 	- [[IF2230 Jaringan Komputer]]
